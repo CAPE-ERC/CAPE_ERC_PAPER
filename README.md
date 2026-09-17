@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="CAPE ERC — CAPE Economic Research and Consulting" width="100%">
+  <img src="assets/cape-logo.png" alt="CAPE — Economic Research &amp; Consulting" width="340">
 </p>
 
 <h1 align="center">CAPE ERC Research Papers</h1>
@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-  <a href="#-papers"><img alt="Papers" src="https://img.shields.io/badge/papers-3-0B2545"></a>
-  <a href="#-papers"><img alt="Coverage" src="https://img.shields.io/badge/coverage-54_African_economies-13315C"></a>
-  <a href="#-papers"><img alt="Data" src="https://img.shields.io/badge/data-2015%E2%80%932025-13315C"></a>
-  <a href="#-license--use"><img alt="Status" src="https://img.shields.io/badge/status-active_research-D4A017"></a>
-  <a href="mailto:stewogbade@capeeconomicconsult.com"><img alt="Contact" src="https://img.shields.io/badge/contact-CAPE%20ERC-0B2545"></a>
+  <a href="#-papers"><img alt="Papers" src="https://img.shields.io/badge/papers-3-1B3A8C"></a>
+  <a href="#-papers"><img alt="Coverage" src="https://img.shields.io/badge/coverage-54_African_economies-1B3A8C"></a>
+  <a href="#-papers"><img alt="Data" src="https://img.shields.io/badge/data-2015%E2%80%932025-1B3A8C"></a>
+  <a href="#-license--use"><img alt="Status" src="https://img.shields.io/badge/status-active_research-D42027"></a>
+  <a href="mailto:eakande@capeeconomicconsult.com"><img alt="Contact" src="https://img.shields.io/badge/contact-CAPE%20ERC-D42027"></a>
 </p>
 
 <p align="center">
@@ -139,7 +139,7 @@ These manuscripts are shared for review and research-collaboration purposes. All
 
 ## ✉️ Contact
 
-**Shakir Tewogbade**
+**Akande Emmanuel**
 CAPE Economic Research and Consulting
 1 Sunny Alebiosu Street, Iyana Ipaja, Lagos State, Nigeria
-📧 [stewogbade@capeeconomicconsult.com](mailto:stewogbade@capeeconomicconsult.com)
+📧 [eakande@capeeconomicconsult.com](mailto:eakande@capeeconomicconsult.com)
