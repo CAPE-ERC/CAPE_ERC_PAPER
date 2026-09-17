@@ -1,0 +1,166 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,graphicx,booktabs,array,longtable,placeins}
+\usepackage{setspace,float,pdflscape}
+\usepackage[style=apa,natbib=true,backend=biber,sortcites=true,sorting=nyt]{biblatex}
+\addbibresource{../06_Bibliography/aeri_refs.bib}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=black]{hyperref}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+\graphicspath{{Supplementary_Data/Figures/}}
+\onehalfspacing
+\setlength{\emergencystretch}{2em}
+\title{Online Supplement to\\[4pt]\textit{Measuring Economic Risk in Africa: The African Economic Risk Index and African Risk Score}}
+\author{}
+\date{September 2026}
+\begin{document}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\theequation}{S\arabic{equation}}
+\begin{center}
+{\Large\bfseries Supplementary Material to\\[4pt]\textit{Measuring Economic Risk in Africa: The African Economic Risk Index and African Risk Score}\par}
+\vspace{.35cm}September 2026
+\end{center}
+\begin{abstract}\singlespacing
+This supplement provides material that supports the measurement and empirical results reported in the paper without interrupting its main argument. It records the domain definitions used for the eight risk pillars, the PCA conversion used for the bounded composite measures, detailed PVAR estimation and inference, expanded exact-text deduplication results, additional external-identification results, and country-level AERI and ARS outputs. The supplement uses the same analytical vintage and definitions as the paper.
+\end{abstract}
+\tableofcontents
+\clearpage
+
+\section{Detailed Pillar Descriptions}
+The main paper condenses the eight pillar descriptions. The definitions below record the domain interpretation used in the analytical vintage. Pillars are non-exclusive: one article can contribute to several domains when its economic content spans them.
+
+\subsection{Inflation Risk}
+Inflation-related reporting covers price pressures and their implications for households and firms. Its mean pillar index is 4.34 points across eligible country-months. Sustained increases can reflect greater attention to input costs, purchasing power, administered prices or anticipated price adjustment. The positive and persistent response of headline inflation to an inflation-risk innovation in the paper provides an external check on this interpretation.
+
+\subsection{FX and External Risk}
+External-risk reporting covers exchange-rate conditions, foreign-currency availability and external financing. Its mean pillar index is 5.03 points. Currency conditions affect imported-input costs and access to external finance, so overlap with inflation and financial-sector reporting is economically natural. The reverse-response evidence in the paper also shows that realised depreciation is followed by a higher aggregate AERI reading.
+
+\subsection{Debt and Fiscal Risk}
+Fiscal reporting covers public borrowing, debt service, revenue pressure and constraints on government finances. Its mean pillar index is 8.64 points. Fiscal concerns often coincide with financial-sector pressure when public financing conditions affect domestic intermediaries and with external risk when foreign-currency obligations become more salient. The overlapping classification preserves those connections within the news record.
+
+\subsection{Financial-Sector Risk}
+Financial-sector reporting covers intermediation, liquidity, balance-sheet pressure and financial stability. Its mean pillar index is 11.46 points, the largest pooled pillar mean in this vintage. The level describes the prominence of financial-sector concerns in the retained corpus and is interpreted together with within-pillar changes over time.
+
+\subsection{Growth and Real-Economy Risk}
+Real-economy reporting covers production, employment, demand and broader economic activity. Its mean pillar index is 3.17 points. News can register weakening demand or production constraints before a complete statistical account becomes available and can also respond to realised changes in activity. The reverse-response analysis in the paper shows how the aggregate AERI responds to a monthly GDP-growth innovation.
+
+\subsection{Commodity and Supply Risk}
+Commodity and supply reporting covers resource production, logistics and disruptions to supply. Its mean pillar index is 0.09 points. The low pooled mean reflects the concentration of such reporting in particular countries and episodes. For interpretation, changes within exposed economies are more informative than the continental average alone.
+
+\subsection{Political-Economy Risk}
+Political-economy reporting covers governance, policy implementation and their economic consequences. Its mean pillar index is 4.94 points. Political content enters the framework when it carries economic relevance and scored risk content, allowing governance and implementation concerns to be identified within broader high-risk episodes.
+
+\subsection{Climate and Disaster Risk}
+Climate and disaster reporting covers environmental disruptions and their economic effects. Its mean pillar index is 1.25 points. Such events are geographically concentrated and irregular, so the pillar is most useful as a domain-specific diagnostic read alongside country context and event data.
+
+\section{Formal PCA Conversion and Aggregation Details}
+Let $X_j$ denote a bounded input, with calibration mean $\mu_j$, standard deviation $s_j$ and oriented first-component loading $v_j$. For standardized inputs $Z_j=(X_j-\mu_j)/s_j$,
+\begin{equation}
+ v'Z=\sum_j \frac{v_j}{s_j}X_j-\sum_j\frac{v_j\mu_j}{s_j}.
+\end{equation}
+Define $D=\sum_j v_j/s_j>0$ and $w_j=(v_j/s_j)/D$. Then
+\begin{equation}
+100\sum_jw_jX_j=\frac{100}{D}\left(v'Z+\sum_j\frac{v_j\mu_j}{s_j}\right).
+\end{equation}
+The bounded-input score is therefore an affine rescaling of the first principal component. The implementation rejects calibration standard deviations below $10^{-10}$ and materially negative oriented loadings below $-10^{-9}$; negligible numerical negatives are set to zero before normalization. Calculations use the unrounded weights reported in the project outputs.
+
+Annual AERI and raw pillar indices weight monthly values by retained article counts so that annual numerators and denominators correspond to the same article universe. Annual breadth is the ratio of summed relevant articles to summed retained articles, while annual severity weights monthly conditional severity by relevant-article counts. When annual ARS or the eight-pillar PCA composite is required, the nonlinear composite is recomputed from annual inputs rather than formed as an average of monthly composite scores.
+
+\section{Detailed PVAR Specification and Inference}\label{app:pvar}
+\input{PVAR_Methodology}
+
+\input{Supplementary_Data/Tables/Supplement_Table_S1}
+
+The 36-country set is the inclusive union of countries whose earlier country-level screening exercise produced an absolute correlation of at least 0.30 for either inflation-risk versus inflation or FX/external-risk versus the exchange rate. Twenty-eight countries enter through the inflation screen, fourteen through the exchange-rate screen and six through both. The set comprises Algeria, Angola, Botswana, Burkina Faso, Burundi, Cameroon, Cape Verde, Comoros, Democratic Republic of the Congo, Egypt, Ethiopia, Gambia, Ghana, Guinea, Guinea-Bissau, Ivory Coast, Lesotho, Liberia, Libya, Malawi, Mali, Mauritius, Morocco, Mozambique, Namibia, Nigeria, Sao Tome and Principe, Senegal, Sierra Leone, Somalia, South Africa, Tanzania, Tunisia, Uganda, Zambia and Zimbabwe.
+
+The PVAR estimation sample should be read separately from the descriptive coverage sample reported later in this supplement. AERI and the pillar series are available for lower-volume country-months, whereas the 100-article threshold is used to define the principal descriptive comparisons and the ARS calibration sample. The PVAR retains the correlation-selected countries with complete model inputs and the required lag structure and imposes a minimum of 24 usable observations per country. This is why Guinea-Bissau and Sao Tome and Principe can enter the PVAR even though Table~\ref{tab:all_country_aeri_ars} reports zero and twenty months, respectively, under the stricter 100-article descriptive rule.
+
+For equation $k$, write the country-cluster score as $s_{ck}=\ddot X_c'\widehat\varepsilon_{ck}$, let $q=mp$, and denote the number of countries by $C$. The covariance used in the joint lag tests is
+\begin{equation}
+\widehat V_k=
+\frac{C}{C-1}\frac{n-1}{n-q}
+(\ddot X'\ddot X)^+
+\left(\sum_{c=1}^{C}s_{ck}s_{ck}'\right)
+(\ddot X'\ddot X)^+.
+\end{equation}
+Country resampling preserves dependence within each country's observed history. Year-month effects absorb common calendar-time variation. Inference is conditional on the correlation-screened country set and on the fixed ARS calibration.
+
+\section{Exact-Text Deduplication: Expanded Results}
+Repeated publication can alter a country-month index when identical high-scoring text appears in several records. The robustness exercise decodes article bodies, restricts comparison to bodies of at least 200 characters, and collapses exact matches within each country-month. Appearances in different countries or different months remain separate observations. Edited stories, translations and rewritten versions also remain separate because the test is deliberately exact.
+
+The reconstruction covers 21,303,020 frozen-vintage records in 7,126 country-months. It is 553 records and one Togo country-month short of the archived aggregate because 42 source files were empty or unreadable. Where a reconstructed month does not fully match the archived count, unmatched frozen-vintage records remain in the denominator and only directly observed duplicates are removed. This preserves the archived universe while allowing the contribution of verified repetitions to be measured.
+
+\input{Supplementary_Data/Tables/Supplement_Table_S2}
+
+Figure~\ref{fig:supp_dedup} compares the monthly cross-country median AERI before and after exact-text removal on the common coverage sample. The two paths retain the same broad chronology and both peak in April 2020. The differences are concentrated in particular countries and months rather than spread evenly through the panel.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=.92\textwidth]{Supplement_Figure_S1.pdf}
+\caption{Monthly median AERI before and after within-country-month exact-text deduplication}
+\label{fig:supp_dedup}
+\begin{singlespace}\footnotesize\textit{Notes:} Each line is the cross-country median among country-months in the common coverage sample used for the deduplication comparison. The aggregate peak remains April 2020.\end{singlespace}
+\end{figure}
+
+\input{Supplementary_Data/Tables/Supplement_Table_S3}
+
+The median within-country AERI correlation is 0.9992 and 48 of 53 countries retain the same peak month on the common sample. Sierra Leone is the largest exception: its November 2016 observation falls from 269.72 to 110.77 and the deduplicated peak moves to October 2016. Rwanda's August 2021 observation falls from 95.43 to 63.35, while Mauritius rises from 91.64 to 111.79 in May 2020 because removal changes both the numerator and denominator. These cases identify where syndicated or repeated identical text materially affects a country history while leaving the continental chronology largely unchanged.
+
+\section{External Monetary-Policy Exposure: Additional Results}
+The external-identification exercise uses the pure U.S. monetary-policy surprise from \citet{jarocinski2020}, aggregated to the month and standardized over the 2015--2025 sample. Predetermined exposure is the 2014 stock of external debt as a share of GNI from the World Bank, transformed as $\log(1+x)$ and standardized. For country $i$ and horizon $h$, the preferred local projection is
+\begin{align}
+\mathrm{AERI}_{i,t+h}-\mathrm{AERI}_{i,t-1}
+={}&\alpha_i^h+\gamma_t^h+\beta_h(MP_t\times E_i^{2014})\notag\\
+&+\sum_{\ell=1}^{3}\theta_{h\ell}\Delta\mathrm{AERI}_{i,t-\ell}
++\sum_{\ell=1}^{3}\psi_{h\ell}(MP_{t-\ell}\times E_i^{2014})
++\varepsilon_{i,t+h}.
+\end{align}
+Country effects absorb persistent differences in average AERI and year-month effects absorb shocks shared by the African sample in a given month. The identifying variation is the cross-country difference in predetermined exposure to the same externally measured tightening. Standard errors are two-way clustered by country and month, and finite-cluster inference uses 28 denominator degrees of freedom for the 29-country cross-section.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=.88\textwidth]{Supplement_Figure_S2.pdf}
+\caption{Differential AERI response to an externally identified U.S. monetary-policy tightening}
+\begin{singlespace}\footnotesize\textit{Notes:} The line reports $\widehat\beta_h$. Shading gives pointwise 90 percent finite-cluster intervals. Exposure is standardized $\log(1+\text{2014 external debt/GNI})$.\end{singlespace}
+\end{figure}
+
+\input{Supplementary_Data/Tables/Supplement_Table_S4}
+\input{Supplementary_Data/Tables/Supplement_Table_S5}
+\input{Supplementary_Data/Tables/Supplement_Table_S6}
+
+The horizon path is delayed. The differential response reaches 0.272 AERI points at month four, with a 90 percent interval of $[0.108,0.436]$, and 0.384 points at month nine, with interval $[0.085,0.684]$. The six reported robustness variants retain positive month-four and month-nine coefficients. Leave-one-country-out estimates remain positive across all 29 omissions. Pre-shock outcomes and the central-bank-information component of the same announcements do not reproduce the exposure pattern, while the finite-cluster and restricted wild-cluster references place the joint future-shock placebo above conventional significance thresholds. Complete monthly shock, exposure and intermediate estimation files are available from the authors on request.
+
+\section{All-Country AERI and ARS Outputs}
+Table~\ref{tab:all_country_aeri_ars} reports compact AERI and ARS outputs for all 54 economies in the 2015--2025 panel. The month count refers only to country-months with at least 100 retained articles. It is therefore a descriptive-coverage statistic rather than a PVAR eligibility count.
+
+\begin{landscape}
+\input{Supplementary_Data/Tables/Supplement_Table_S7}
+\end{landscape}
+
+\section{Individual Country AERI Dynamics}
+This section reports monthly AERI for the ten economies used in the annual comparison in the paper: Nigeria, Ghana, Algeria, Morocco, Egypt, Ethiopia, South Africa, Kenya, Angola and Ivory Coast. The dashed reference line in the figures is the contemporaneous median across eligible countries.
+
+\input{Supplementary_Data/Tables/Supplement_Table_S8}
+
+The country series combine common shocks with marked differences in levels, volatility and timing. Nigeria remains high through much of the sample and peaks in February 2024. Ethiopia has the largest standard deviation in the ten-country group and records its maximum in February 2019. South Africa and Algeria show pronounced April 2020 peaks, while Morocco's series rises more gradually later in the sample. The common vertical scale preserves these differences rather than normalizing each country to its own history.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=.96\textwidth,height=.72\textheight,keepaspectratio]{Supplement_Figure_S3.pdf}
+\caption{Monthly country AERI: Nigeria, Ghana, Algeria, Morocco, Egypt and Ethiopia}
+\begin{singlespace}\footnotesize\textit{Notes:} Solid lines show monthly AERI. The dashed line is the median across countries with at least 100 retained articles in the corresponding month. No smoothing or country-specific rebasing is applied.\end{singlespace}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=.96\textwidth,height=.72\textheight,keepaspectratio]{Supplement_Figure_S4.pdf}
+\caption{Monthly country AERI: South Africa, Kenya, Angola and Ivory Coast}
+\begin{singlespace}\footnotesize\textit{Notes:} Definitions, timeline and vertical scale match the preceding figure. The reference median varies with the composition of eligible countries.\end{singlespace}
+\end{figure}
+
+\clearpage
+\section*{References}
+\addcontentsline{toc}{section}{References}
+\begingroup\small\singlespacing
+\printbibliography[heading=none]
+\endgroup
+\end{document}

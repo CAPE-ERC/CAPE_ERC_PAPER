@@ -1,0 +1,15 @@
+\begin{table}[htbp]\centering\small
+\caption{Sensitivity to within-country-month exact-text deduplication}\label{tab:deduplication}
+\begin{tabular}{@{}lr@{}}\toprule Statistic & Result \\\midrule
+Records removed & 497,091 \\
+Removed share (percent) & 2.33 \\
+Cross-outlet copies removed & 186,379 \\
+AERI Pearson correlation & 0.9296 \\
+AERI rank correlation & 0.9883 \\
+AERI mean absolute change & 2.32 \\
+AERI 95th-percentile absolute change & 8.30 \\
+ARS Pearson correlation & 0.9680 \\
+ARS mean absolute change & 0.61 \\
+Months falling below 100 articles & 69 \\
+\bottomrule\end{tabular}
+\begin{singlespace}\footnotesize\textit{Notes:} The comparison uses 6,418 country-months with at least 100 articles before and after deduplication. Exact duplicates have the same decoded body within a country-month; bodies shorter than 200 characters are retained. Both numerator and denominator are adjusted. ARS uses the original unrounded PCA weights.\end{singlespace}\end{table}

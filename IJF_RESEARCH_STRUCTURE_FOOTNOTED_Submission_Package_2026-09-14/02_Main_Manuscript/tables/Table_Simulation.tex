@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Monte Carlo: target-information treatment and the horizon profile of text value}
+\label{tab:simulation}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+DGP & Design & $h$ & Mean relative RMSFE & Share with RMSFE gain \\
+\midrule
+Current-state signal & Retrospective final-vintage & 1 & 1.0002 & 39.0\% \\
+Current-state signal & Publication-lagged & 1 & 0.9969 & 97.7\% \\
+Current-state signal & Retrospective final-vintage & 3 & 1.0002 & 36.6\% \\
+Current-state signal & Publication-lagged & 3 & 0.9973 & 96.5\% \\
+Current-state signal & Retrospective final-vintage & 6 & 1.0002 & 39.2\% \\
+Current-state signal & Publication-lagged & 6 & 0.9987 & 84.6\% \\
+Current-state signal & Retrospective final-vintage & 12 & 1.0001 & 47.5\% \\
+Current-state signal & Publication-lagged & 12 & 1.0025 & 47.6\% \\
+\midrule
+Persistent-state stress & Retrospective final-vintage & 12 & 0.9962 & 90.2\% \\
+Persistent-state stress & Publication-lagged & 12 & 1.0122 & 35.1\% \\
+\bottomrule
+\end{tabular}}
+\begin{singlespace}\footnotesize\textit{Notes:} 1,000 replications per DGP with 54 economies and a 2015--2025 monthly calendar. The current-state signal is calibrated to a modest feasible short-horizon effect and contains no next-year innovation. The persistent-state stress DGP deliberately increases persistence and signal-to-noise to test whether retrospective final-vintage information can reproduce the direction of the empirical 12-month reversal; it is an existence calibration, not an empirical mechanism estimate. A separate pure-noise placebo remains approximately neutral under both information treatments. Full horizon results for all three DGPs appear in the online supplement.\end{singlespace}
+\end{table}

@@ -1,0 +1,15 @@
+MAIN MANUSCRIPT EDITABLE TABLE SOURCES
+
+Table_1.tex: Measurement objects and their roles
+Table_2.tex: Illustrative keyword taxonomy used in article scoring
+Table_3.tex: ARS component weights and standardised loadings
+Table_4.tex: PCA weights, scaling bounds and loadings for the eight pillars
+Table_5.tex: Distribution of AERI and alternative ARS specifications
+Table_6.tex: Pillar-specific economic-risk content over time
+Table_7.tex: Sensitivity to within-country-month exact-text deduplication
+Table_8.tex: Directional PVAR external-consistency tests
+Table_9.tex: Externally identified monetary-policy exposure validation
+Table_B1.tex: AERI and within-country news-archive depth
+Table_C1.tex: External-identification diagnostics and falsification checks
+Table_D1.tex: Pooled PVAR samples and stability diagnostics
+Table_E1.tex: Country-level AERI: descriptive comparisons, 2015--2025

@@ -1,0 +1,12 @@
+\begin{table}[htbp]\centering\small\singlespacing
+\caption{Pooled PVAR samples and stability diagnostics}\label{tab:model_diagnostics}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}\toprule
+System & Variables & Countries & Obs. & Lags & Max. root & Draws\\\midrule
+Inflation risk + GDP & 4 & 36 & 4,286 & 3 & 0.9228 & 400/400\\
+FX/external risk + GDP & 4 & 36 & 4,286 & 3 & 0.9222 & 400/400\\
+AERI + GDP & 4 & 36 & 4,286 & 3 & 0.9198 & 400/400\\
+ARS + GDP & 4 & 36 & 4,286 & 3 & 0.9190 & 400/400\\
+\bottomrule\end{tabular}
+\par\medskip\raggedright\footnotesize\textit{Notes:} All samples span May 2015--December 2025 and use the same 36-country correlation-selected panel. The PVAR sample is formed from complete model inputs and lags with at least 24 usable observations per country; the 100-article rule used for descriptive country comparisons is not imposed here. Draws report accepted/attempted country-cluster replications. A companion root below one indicates fitted dynamic stability; identification is assessed separately through the stated recursive and external-shock designs.
+\end{table}

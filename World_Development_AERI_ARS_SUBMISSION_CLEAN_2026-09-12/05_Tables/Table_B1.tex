@@ -1,0 +1,15 @@
+\begin{table}[htbp]\centering
+\caption{AERI and within-country news-archive depth}\label{tab:archive_depth}
+\begin{singlespace}\small
+\begin{tabular}{lrrrr}
+\toprule
+Specification & Coefficient & Std. error & $p$-value & Observations\\
+\midrule
+Country fixed effects & 1.141 & 2.978 & 0.702 & 6,488\\
+Country and year-month fixed effects & -1.474 & 3.153 & 0.640 & 6,488\\
+\bottomrule
+\end{tabular}
+\vspace{2mm}
+\parbox{0.92\textwidth}{\footnotesize\textit{Notes:} The dependent variable is AERI and the regressor is the natural logarithm of retained article records in the country-month. The sample contains the 6,488 country-months with at least 100 retained articles, covering 53 countries; Guinea-Bissau has no month meeting the threshold in this vintage. Standard errors are clustered by country. The within-country correlation between AERI and log article volume is 0.035. The second specification also absorbs year-month fixed effects.}
+\end{singlespace}
+\end{table}

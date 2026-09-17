@@ -1,0 +1,12 @@
+\begin{table}[htbp]\centering\small\singlespacing
+\caption{Measurement objects and their roles}\label{tab:measure_map}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{p{2.5cm}p{4.7cm}p{6.1cm}}\toprule
+Measure & Construction & Interpretation\\\midrule
+AERI & $100$ times the sum of article-level risk scores divided by all retained articles in a country-month & Overall intensity of scored economic-risk content relative to the observed news flow; the principal economic-risk index\\
+Pillar index & Same article-level risk score as AERI, with the numerator restricted to articles assigned to one of eight economic domains & Domain-specific diagnostic showing where measured economic risk is occurring; overlapping assignments preserve cross-domain connections\\
+Eight-pillar PCA composite & Log-transformed, percentile-scaled pillar indices combined with fixed first-component weights & Common-factor diagnostic showing how strongly the eight risk domains move together; useful for distinguishing broad cross-domain stress from a concentrated pillar episode\\
+ARS & Weighted average of bounded AERI intensity, relevant-article breadth, conditional severity and structural spread, scaled to 0--100 & Multidimensional monitoring score summarising how intense, widespread, severe and broad-based the measured risk is\\
+\bottomrule\end{tabular}
+\par\medskip\raggedright\footnotesize\textit{Notes:} AERI is the principal article-score index. The pillar indices locate the economic domains in which that risk appears. The PCA composite provides a companion diagnostic of common cross-domain movement, while ARS is a separate bounded monitoring score. Each measure is interpreted according to its stated construction and role in the framework.
+\end{table}

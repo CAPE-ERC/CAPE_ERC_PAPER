@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Domain-alignment comparators at the one-month forecast horizon}
+\label{tab:comparator}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Text signal & RMSFE & Relative RMSFE & MAE & HAC CW $p$ & Two-way $p$ \\
+\midrule
+Growth/Real Economy (GRE) & 8.344 & 0.9964 & 5.385 & 0.0006 & 0.053 \\
+Broad AERI & 8.394 & 1.0024 & 5.452 & 0.0003 & 0.238 \\
+Inflation Risk & 8.503 & 1.0153 & 5.563 & 1.000 & 0.992 \\
+FX/External Risk & 8.377 & 1.0003 & 5.430 & $<0.001$ & 0.208 \\
+\bottomrule
+\end{tabular}}
+\vspace{0.35em}
+\begin{minipage}{0.97\textwidth}\footnotesize\textit{Notes:} All signals augment the same publication-lagged benchmark (RMSFE $=8.375$, MAE $=5.441$). GRE is the only signal that lowers both RMSFE and MAE. Clark--West adjustment can be positive even when unadjusted forecast loss is slightly higher for a nested model, so domain-alignment interpretation uses the raw loss measures jointly with dependence-robust inference rather than the Clark--West $p$-value alone.\end{minipage}
+\end{table}

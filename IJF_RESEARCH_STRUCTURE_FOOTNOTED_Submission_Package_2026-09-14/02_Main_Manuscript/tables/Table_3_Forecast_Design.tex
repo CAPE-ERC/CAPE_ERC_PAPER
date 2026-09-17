@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering\scriptsize\singlespacing
+\caption{Publication-lagged final-vintage forecasting design}
+\label{tab:design}
+\renewcommand{\arraystretch}{0.92}
+\begin{tabularx}{\textwidth}{p{0.24\textwidth}X}
+\toprule
+Element & Implementation \\
+\midrule
+Country universe & Fifty-four African economies; membership is determined by pre-evaluation data availability only. \\
+Annual GDP source & Author-supplied annual series labelled ``GDP (PPP)-WEO,'' 2015--2025. The replication copy is frozen as supplied on 13 September 2026. The workbook does not identify the underlying WEO publication vintage, so the annual values are treated as final-vintage data rather than historical real-time vintages. \\
+Realized evaluation target & Twelve-month growth of a final-vintage monthly GDP-PPP proxy constructed by additive first-difference Denton and constrained to aggregate exactly to the annual benchmarks. This series is used only to score realized forecast outcomes. \\
+Forecast-origin GDP information & At each forecast origin, lagged monthly GDP growth is reconstructed from annual benchmark years permitted by the release rule. Under the baseline rule, year $y$ becomes usable from May of $y+1$. Denton is applied only through the last permitted annual year; subsequent months up to the forecast origin are extrapolated using the log-monthly rate implied by the two most recent permitted annual totals. \\
+Training-target availability & A realized target dated in calendar year $y$ enters recursive estimation only from May of $y+1$ under the baseline rule. \\
+Text scaling & Country-specific GRE and comparator means and standard deviations are estimated over 2015--2018 and frozen before the January 2020 evaluation start. \\
+Benchmark & Pooled country-fixed-effects autoregression using three publication-lagged GDP-growth lags and target-month seasonal indicators. GRE adds one standardized news regressor at the forecast origin. \\
+Evaluation & Recursive target dates January 2020--December 2025 at 1-, 3-, 6-, and 12-month forecast horizons. The full horizon profile is reported; no new horizon is relabelled as pre-specified after inspection of the corrected results. \\
+Release-timing sensitivity & Baseline May availability is repeated using July and November release conventions. \\
+Inference & RMSFE, MAE, target-month HAC Clark--West inference, complementary two-way country--target-month covariance, Holm correction across horizons, cross-section-preserving moving-block bootstrap, and country-level RMSFE ratios. \\
+\bottomrule
+\end{tabularx}
+\end{table}

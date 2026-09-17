@@ -1,0 +1,15 @@
+\begin{table}[htbp]\centering\scriptsize\setlength{\tabcolsep}{4pt}
+\caption{Country-level sensitivity of AERI peaks to exact-text deduplication}\label{tab:supp_dedup_country}
+\begin{tabular}{lrrrrl}\toprule
+Country & Original & Dedup. at original & $\Delta$ & Within-country $r$ & Dedup. peak\\\midrule
+Sierra Leone & 269.72 & 110.77 & -158.95 & 0.812 & 2016-10\\
+Rwanda & 95.43 & 63.35 & -32.08 & 0.984 & 2020-04\\
+Mauritius & 91.64 & 111.79 & 20.15 & 0.998 & 2020-05\\
+Angola & 85.67 & 72.69 & -12.98 & 0.932 & 2020-04\\
+Eswatini & 75.11 & 87.01 & 11.89 & 0.908 & 2020-04\\
+Zambia & 121.49 & 130.62 & 9.12 & 0.684 & 2024-09\\
+Cameroon & 68.83 & 60.92 & -7.91 & 0.992 & 2016-12\\
+Botswana & 90.44 & 85.72 & -4.72 & 0.972 & 2025-12\\
+\bottomrule\end{tabular}
+\begin{singlespace}\footnotesize\textit{Notes:} Countries shown are those with the largest absolute change at the original peak, augmented to retain Rwanda and Mauritius because their peak behavior is discussed in the paper. The correlation is computed over the common within-country monthly sample. A change can be positive because removing duplicate records changes both the score numerator and the all-article denominator.\end{singlespace}
+\end{table}

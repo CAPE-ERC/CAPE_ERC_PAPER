@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Article-level exact-text deduplication sensitivity at the one-month horizon}
+\label{tab:dedup_gre}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+GRE construction & Rel. RMSFE & Rel. MAE & HAC CW $p$ & Two-way $p$ & $N$ \\
+\midrule
+Original GRE, common sample & 0.9964 & 0.9897 & 0.0006 & 0.053 & 3,886 \\
+Exact-text-deduplicated GRE & 0.9969 & 0.9905 & 0.0017 & 0.068 & 3,886 \\
+\bottomrule
+\end{tabular}}
+\vspace{0.35em}
+\begin{minipage}{0.97\textwidth}\footnotesize\textit{Notes:} The reconstructed article archive removes 497,091 exact within-country-month duplicate records (2.33 percent of reconstructed records), including 186,379 cross-outlet copies, and recomputes the Growth/Real Economy pillar. The common-sample original and deduplicated GRE series have pooled Pearson correlation 0.969, rank correlation 0.981, and median within-country correlation 0.999. This exercise tests sensitivity to repeated identical text; it does not vary the lexicon, severity map, or emphasis coefficients.\end{minipage}
+\end{table}

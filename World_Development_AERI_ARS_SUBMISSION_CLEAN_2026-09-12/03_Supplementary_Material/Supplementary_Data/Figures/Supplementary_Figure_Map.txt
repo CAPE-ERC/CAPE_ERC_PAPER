@@ -1,0 +1,11 @@
+Figure S1: Monthly median AERI before and after within-country-month exact-text deduplication
+File: Supplement_Figure_S1.pdf
+
+Figure S2: Differential AERI response to an externally identified U.S. monetary-policy tightening
+File: Supplement_Figure_S2.pdf
+
+Figure S3: Monthly country AERI: Nigeria, Ghana, Algeria, Morocco, Egypt and Ethiopia
+File: Supplement_Figure_S3.pdf
+
+Figure S4: Monthly country AERI: South Africa, Kenya, Angola and Ivory Coast
+File: Supplement_Figure_S4.pdf

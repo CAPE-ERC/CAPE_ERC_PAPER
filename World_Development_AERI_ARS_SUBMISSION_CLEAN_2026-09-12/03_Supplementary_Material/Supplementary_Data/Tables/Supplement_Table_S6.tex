@@ -1,0 +1,20 @@
+\begin{table}[htbp]\centering
+\caption{External-identification diagnostics and falsification checks}
+\label{tab:external_id_diagnostics}
+\begin{singlespace}\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}p{4.5cm}p{3.4cm}p{4.8cm}@{}}
+\toprule
+Check & Statistic / range & Interpretation\\
+\midrule
+Pre-shock AERI-change placebos (1--6 months) & $p\in[0.156,0.807]$ & None significant at 10 percent\\
+CBI shock $\times$ exposure, month 4 & $p=0.153$ & p-value above 0.10\\
+CBI shock $\times$ exposure, month 9 & $p=0.125$ & p-value above 0.10\\
+Joint future-shock interaction placebo & $\chi^2(6)=11.30$, asymptotic $p=0.079$ & Large-sample reference only\\
+Finite-cluster joint reference & $F(6,28)=1.884$, $p=0.119$ & p-value above 0.10\\
+Restricted wild-cluster bootstrap & $p=0.221$ & p-value above 0.10\\
+\bottomrule
+\end{tabular}
+\end{singlespace}
+\begin{singlespace}\footnotesize\textit{Notes:} The joint future-shock placebo includes the contemporaneous monetary-policy-shock--exposure interaction as a control. The asymptotic Wald reference is reported for transparency, but the preferred joint inference recognizes that the identifying cross-section contains 29 African-country clusters. The finite-cluster $F$ reference uses 28 denominator degrees of freedom; the restricted wild-cluster bootstrap uses 999 Rademacher replications by African country. The pre-shock outcome placebos are estimated without lagged dependent-variable controls that would mechanically span the placebo outcome.\end{singlespace}
+\end{table}

@@ -1,0 +1,10 @@
+SUPPLEMENTARY EDITABLE TABLE SOURCES
+
+Supplement_Table_S1.tex: Pooled PVAR samples and stability diagnostics
+Supplement_Table_S2.tex: Sensitivity to within-country-month exact-text deduplication
+Supplement_Table_S3.tex: Country-level sensitivity of AERI peaks to exact-text deduplication
+Supplement_Table_S4.tex: Full horizon path for the external monetary-policy exposure specification
+Supplement_Table_S5.tex: Externally identified monetary-policy exposure validation
+Supplement_Table_S6.tex: External-identification diagnostics and falsification checks
+Supplement_Table_S7.tex: Country-level AERI and ARS summary statistics, 2015--2025
+Supplement_Table_S8.tex: Country-level AERI: descriptive comparisons, 2015--2025

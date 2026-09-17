@@ -1,0 +1,1 @@
+Supplementary Material for “Measuring Economic Risk in Africa: The African Economic Risk Index and African Risk Score.” Contains detailed pillar definitions, formal PCA conversion, PVAR specification and inference, expanded exact-text deduplication results, additional external-identification results, all-country AERI/ARS outputs, and monthly country AERI paths.

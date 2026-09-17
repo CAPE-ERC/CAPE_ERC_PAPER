@@ -1,0 +1,11 @@
+CORE SCIENTIFIC FILES COMPLETE FOR IJF PORTAL UPLOAD.
+
+Canonical main manuscript:
+02_Main_Manuscript/Forecast_Evaluation_Constructed_Targets_Africa.pdf
+
+Canonical source:
+02_Main_Manuscript/Forecast_Evaluation_Constructed_Targets_Africa.tex
+
+Also upload the separate title page and online supplement.
+
+Routine portal-side check still required: confirm author names/order, affiliations, corresponding-author email, and metadata entered in Editorial Manager match the title page exactly.

@@ -1,0 +1,1729 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/apasortcite//global/global/global}
+    \entry{abrigo2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b10a5161d9402787bf69576568f62b8b}{%
+           family={Abrigo},
+           familyi={A\bibinitperiod},
+           given={Michael\bibnamedelimb R.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38a003b675ddf0b6d989735e50525e90}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Inessa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{fullhash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{fullhashraw}{532e402c0b937c95431ffd7a503b1049}
+      \strng{bibnamehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authorbibnamehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authornamehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authorfullhash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authorfullhashraw}{532e402c0b937c95431ffd7a503b1049}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Stata Journal}
+      \field{number}{3}
+      \field{title}{Estimation of Panel Vector Autoregression in Stata}
+      \field{volume}{16}
+      \field{year}{2016}
+      \field{pages}{778\bibrangedash 804}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1177/1536867X1601600314
+      \endverb
+    \endentry
+    \entry{ahir2022}{report}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1a1fa7a4f364515a8b11664cda47d92b}{%
+           family={Ahir},
+           familyi={A\bibinitperiod},
+           given={Hites},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f9ed1162402cc5a63ec1d1f470ea527}{%
+           family={Bloom},
+           familyi={B\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a177b6c6332482a0d6fe54ed6e931a2}{%
+           family={Furceri},
+           familyi={F\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{01603caa2afc35609bb141c1814d6a8f}
+      \strng{fullhash}{29105a41f1e1e2c1b0135d9b62329482}
+      \strng{fullhashraw}{29105a41f1e1e2c1b0135d9b62329482}
+      \strng{bibnamehash}{29105a41f1e1e2c1b0135d9b62329482}
+      \strng{authorbibnamehash}{29105a41f1e1e2c1b0135d9b62329482}
+      \strng{authornamehash}{01603caa2afc35609bb141c1814d6a8f}
+      \strng{authorfullhash}{29105a41f1e1e2c1b0135d9b62329482}
+      \strng{authorfullhashraw}{29105a41f1e1e2c1b0135d9b62329482}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{29763}
+      \field{title}{The World Uncertainty Index}
+      \field{type}{Working Paper}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.3386/w29763
+      \endverb
+    \endentry
+    \entry{baker2016}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=44c1fb654911b2846ca5c9262f750497}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Scott\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f9ed1162402cc5a63ec1d1f470ea527}{%
+           family={Bloom},
+           familyi={B\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=436e25609a5e8f78d485f754f4af4176}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Steven\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d8d72ca78173273239b3a45b739acce9}
+      \strng{fullhash}{06807450d490fd8ee92d0ce9beddc842}
+      \strng{fullhashraw}{06807450d490fd8ee92d0ce9beddc842}
+      \strng{bibnamehash}{06807450d490fd8ee92d0ce9beddc842}
+      \strng{authorbibnamehash}{06807450d490fd8ee92d0ce9beddc842}
+      \strng{authornamehash}{d8d72ca78173273239b3a45b739acce9}
+      \strng{authorfullhash}{06807450d490fd8ee92d0ce9beddc842}
+      \strng{authorfullhashraw}{06807450d490fd8ee92d0ce9beddc842}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{4}
+      \field{title}{Measuring Economic Policy Uncertainty}
+      \field{volume}{131}
+      \field{year}{2016}
+      \field{pages}{1593\bibrangedash 1636}
+      \range{pages}{44}
+      \verb{doi}
+      \verb 10.1093/qje/qjw024
+      \endverb
+    \endentry
+    \entry{bloom2009}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1f9ed1162402cc5a63ec1d1f470ea527}{%
+           family={Bloom},
+           familyi={B\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{fullhash}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{fullhashraw}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{bibnamehash}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{authorbibnamehash}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{authornamehash}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{authorfullhash}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{authorfullhashraw}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{3}
+      \field{title}{The Impact of Uncertainty Shocks}
+      \field{volume}{77}
+      \field{year}{2009}
+      \field{pages}{623\bibrangedash 685}
+      \range{pages}{63}
+      \verb{doi}
+      \verb 10.3982/ECTA6248
+      \endverb
+    \endentry
+    \entry{buell2021}{report}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=d4680cdcc551a6debb0185b257df4129}{%
+           family={Buell},
+           familyi={B\bibinitperiod},
+           given={Brandon},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2958796f0ff57bbcb4b612945b5adf38}{%
+           family={Cherif},
+           familyi={C\bibinitperiod},
+           given={Reda},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d2edcdfbf923baabee1c9bfab43e341}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Carissa},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63a9c990fbc560c7b6ccf387183b50d8}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Jiawen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=408430dd1593800d4dc7de723613544f}{%
+           family={Wendt},
+           familyi={W\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {International Monetary Fund}%
+      }
+      \strng{namehash}{63ea7b36615856e0daff0bf5d04dfb4b}
+      \strng{fullhash}{c543439adce7f6d67fcc2fef91baa31d}
+      \strng{fullhashraw}{c543439adce7f6d67fcc2fef91baa31d}
+      \strng{bibnamehash}{c543439adce7f6d67fcc2fef91baa31d}
+      \strng{authorbibnamehash}{c543439adce7f6d67fcc2fef91baa31d}
+      \strng{authornamehash}{63ea7b36615856e0daff0bf5d04dfb4b}
+      \strng{authorfullhash}{c543439adce7f6d67fcc2fef91baa31d}
+      \strng{authorfullhashraw}{c543439adce7f6d67fcc2fef91baa31d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{21/124}
+      \field{title}{Impact of {COVID-19}: Nowcasting and Big Data to Track Economic Activity in Sub-Saharan Africa}
+      \field{type}{Working Paper}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.5089/9781513582498.001
+      \endverb
+    \endentry
+    \entry{caldara2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5f270f9711a1f97bafde54495f318697}{%
+           family={Caldara},
+           familyi={C\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acea90ed4b11d5b6a53225c00869ef09}{%
+           family={Iacoviello},
+           familyi={I\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{fullhash}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{fullhashraw}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{bibnamehash}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{authorbibnamehash}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{authornamehash}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{authorfullhash}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{authorfullhashraw}{45eddbbff9bd83730679491044b7c6ed}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{4}
+      \field{title}{Measuring Geopolitical Risk}
+      \field{volume}{112}
+      \field{year}{2022}
+      \field{pages}{1194\bibrangedash 1225}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1257/aer.20191823
+      \endverb
+    \endentry
+    \entry{cameron2011}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dab37900e0b3d1bbd6b945d99fef4b06}{%
+           family={Cameron},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi Colin},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d037e69d793c2bd3f19e61d52dd15337}{%
+           family={Gelbach},
+           familyi={G\bibinitperiod},
+           given={Jonah\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=666ff5de6a44e31611322ad1b6ddf9d3}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Douglas\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{de66073caceeddc66c6b6d44411fcfe3}
+      \strng{fullhash}{8ab93612723c51a9a5e7e7030929186a}
+      \strng{fullhashraw}{8ab93612723c51a9a5e7e7030929186a}
+      \strng{bibnamehash}{8ab93612723c51a9a5e7e7030929186a}
+      \strng{authorbibnamehash}{8ab93612723c51a9a5e7e7030929186a}
+      \strng{authornamehash}{de66073caceeddc66c6b6d44411fcfe3}
+      \strng{authorfullhash}{8ab93612723c51a9a5e7e7030929186a}
+      \strng{authorfullhashraw}{8ab93612723c51a9a5e7e7030929186a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business \& Economic Statistics}
+      \field{number}{2}
+      \field{title}{Robust Inference With Multiway Clustering}
+      \field{volume}{29}
+      \field{year}{2011}
+      \field{pages}{238\bibrangedash 249}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1198/jbes.2010.07136
+      \endverb
+    \endentry
+    \entry{fotopoulou2026}{report}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5c4aee0a15abadefaaa9bdadd4c38076}{%
+           family={Fotopoulou},
+           familyi={F\bibinitperiod},
+           given={Eurydice},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1a4ebc52f35590c9f58e2fbb5723b73}{%
+           family={Maduako},
+           familyi={M\bibinitperiod},
+           given={Iyke},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f92cdc32e45088a3a57a6ef5c63e0cb}{%
+           family={Sbrancia},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi Belen},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9ac57f2c398b11dcb32ffbbf2eeed8f}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Prachi},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {International Monetary Fund}%
+      }
+      \strng{namehash}{4ef5fc5b0f4db7f9b975c2000e7996f8}
+      \strng{fullhash}{2ac65160ab04a5945ea193ff0540c33f}
+      \strng{fullhashraw}{2ac65160ab04a5945ea193ff0540c33f}
+      \strng{bibnamehash}{2ac65160ab04a5945ea193ff0540c33f}
+      \strng{authorbibnamehash}{2ac65160ab04a5945ea193ff0540c33f}
+      \strng{authornamehash}{4ef5fc5b0f4db7f9b975c2000e7996f8}
+      \strng{authorfullhash}{2ac65160ab04a5945ea193ff0540c33f}
+      \strng{authorfullhashraw}{2ac65160ab04a5945ea193ff0540c33f}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{26/020}
+      \field{title}{Nowcasting Economic Growth with Machine Learning and Satellite Data}
+      \field{type}{Working Paper}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.5089/9798229037471.001
+      \endverb
+    \endentry
+    \entry{gentzkow2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7f632dc67b8bd2566eae625ec44fafd0}{%
+           family={Gentzkow},
+           familyi={G\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96799198bea175b6a69479505180a2cd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16e5ccc34f2ccb8bb3c2e92bb0f64013}{%
+           family={Taddy},
+           familyi={T\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{300bb1d59239c5d8ae741096e3c6cc08}
+      \strng{fullhash}{7fbd9f5ce05577850c292396dbb1de0c}
+      \strng{fullhashraw}{7fbd9f5ce05577850c292396dbb1de0c}
+      \strng{bibnamehash}{7fbd9f5ce05577850c292396dbb1de0c}
+      \strng{authorbibnamehash}{7fbd9f5ce05577850c292396dbb1de0c}
+      \strng{authornamehash}{300bb1d59239c5d8ae741096e3c6cc08}
+      \strng{authorfullhash}{7fbd9f5ce05577850c292396dbb1de0c}
+      \strng{authorfullhashraw}{7fbd9f5ce05577850c292396dbb1de0c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Literature}
+      \field{number}{3}
+      \field{title}{Text as Data}
+      \field{volume}{57}
+      \field{year}{2019}
+      \field{pages}{535\bibrangedash 574}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1257/jel.20181020
+      \endverb
+    \endentry
+    \entry{jarocinski2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e18649c0286efaa63631504aa04e3fd3}{%
+           family={Jarociński},
+           familyi={J\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75f6d47bff4a3d2b5ce170696229ff4c}{%
+           family={Karadi},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{fullhash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{fullhashraw}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{bibnamehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authorbibnamehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authornamehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authorfullhash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authorfullhashraw}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Macroeconomics}
+      \field{number}{2}
+      \field{title}{Deconstructing Monetary Policy Surprises---The Role of Information Shocks}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 43}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1257/mac.20180090
+      \endverb
+    \endentry
+    \entry{jolliffe2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2d87c65d6bc93daaaf4c9f1e98b5e53a}{%
+           family={Jolliffe},
+           familyi={J\bibinitperiod},
+           given={Ian\bibnamedelima T.},
+           giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7c36a415b2b525b1a13001347b85b34}{%
+           family={Cadima},
+           familyi={C\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{fullhash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{fullhashraw}{5cafe59e1897a85daaf352903ab478de}
+      \strng{bibnamehash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{authorbibnamehash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{authornamehash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{authorfullhash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{authorfullhashraw}{5cafe59e1897a85daaf352903ab478de}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society A}
+      \field{number}{2065}
+      \field{title}{Principal Component Analysis: A Review and Recent Developments}
+      \field{volume}{374}
+      \field{year}{2016}
+      \field{pages}{20150202}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rsta.2015.0202
+      \endverb
+    \endentry
+    \entry{jurado2015}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fe60e67bd32bdfe9503ee598277c35f5}{%
+           family={Jurado},
+           familyi={J\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6a56af42017edef3cf1028207671a70}{%
+           family={Ludvigson},
+           familyi={L\bibinitperiod},
+           given={Sydney\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d9598cb5e0ac67e52bb26096e0fd043}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Serena},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1bf10df0094a4c6bb6cfa05d5ab7b908}
+      \strng{fullhash}{1383369773a65ed190285366763add0b}
+      \strng{fullhashraw}{1383369773a65ed190285366763add0b}
+      \strng{bibnamehash}{1383369773a65ed190285366763add0b}
+      \strng{authorbibnamehash}{1383369773a65ed190285366763add0b}
+      \strng{authornamehash}{1bf10df0094a4c6bb6cfa05d5ab7b908}
+      \strng{authorfullhash}{1383369773a65ed190285366763add0b}
+      \strng{authorfullhashraw}{1383369773a65ed190285366763add0b}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{3}
+      \field{title}{Measuring Uncertainty}
+      \field{volume}{105}
+      \field{year}{2015}
+      \field{pages}{1177\bibrangedash 1216}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1257/aer.20131193
+      \endverb
+    \endentry
+    \entry{love2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=38a003b675ddf0b6d989735e50525e90}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Inessa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab1b9377060baee1150cec293bff6105}{%
+           family={Zicchino},
+           familyi={Z\bibinitperiod},
+           given={Lea},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{fullhash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{fullhashraw}{a919015afee4eb124afed07ae8f85eed}
+      \strng{bibnamehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authorbibnamehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authornamehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authorfullhash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authorfullhashraw}{a919015afee4eb124afed07ae8f85eed}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Review of Economics and Finance}
+      \field{number}{2}
+      \field{title}{Financial Development and Dynamic Investment Behavior: Evidence from Panel VAR}
+      \field{volume}{46}
+      \field{year}{2006}
+      \field{pages}{190\bibrangedash 210}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/j.qref.2005.11.007
+      \endverb
+    \endentry
+    \entry{mackinnon2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cfe7ee6a48f0dc865491ef865627d742}{%
+           family={MacKinnon},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ae2b24777e3b860e02219dc03481797}{%
+           family={Webb},
+           familyi={W\bibinitperiod},
+           given={Matthew\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e0fb40e090684dbd001eb71251906f03}
+      \strng{fullhash}{e0fb40e090684dbd001eb71251906f03}
+      \strng{fullhashraw}{e0fb40e090684dbd001eb71251906f03}
+      \strng{bibnamehash}{e0fb40e090684dbd001eb71251906f03}
+      \strng{authorbibnamehash}{e0fb40e090684dbd001eb71251906f03}
+      \strng{authornamehash}{e0fb40e090684dbd001eb71251906f03}
+      \strng{authorfullhash}{e0fb40e090684dbd001eb71251906f03}
+      \strng{authorfullhashraw}{e0fb40e090684dbd001eb71251906f03}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Econometrics}
+      \field{number}{2}
+      \field{title}{Wild Bootstrap Inference for Wildly Different Cluster Sizes}
+      \field{volume}{32}
+      \field{year}{2017}
+      \field{pages}{233\bibrangedash 254}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1002/jae.2508
+      \endverb
+    \endentry
+    \entry{mankiwreis2002}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=474cb51282bc298228df113afdfd755f}{%
+           family={Mankiw},
+           familyi={M\bibinitperiod},
+           given={N.\bibnamedelimi Gregory},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e01ab5989b7c5a875443a0ab19f121e4}{%
+           family={Reis},
+           familyi={R\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{fullhash}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{fullhashraw}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{bibnamehash}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{authorbibnamehash}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{authornamehash}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{authorfullhash}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{authorfullhashraw}{a48613d09ff66004f4f5bd31b426f63a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{4}
+      \field{title}{Sticky Information versus Sticky Prices: A Proposal to Replace the New Keynesian Phillips Curve}
+      \field{volume}{117}
+      \field{year}{2002}
+      \field{pages}{1295\bibrangedash 1328}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1162/003355302320935034
+      \endverb
+    \endentry
+    \entry{nickell1981}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=602e867f4abdc632f3f7cb4267f16254}{%
+           family={Nickell},
+           familyi={N\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{fullhash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{fullhashraw}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{bibnamehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authorbibnamehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authornamehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authorfullhash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authorfullhashraw}{602e867f4abdc632f3f7cb4267f16254}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{6}
+      \field{title}{Biases in Dynamic Models with Fixed Effects}
+      \field{volume}{49}
+      \field{year}{1981}
+      \field{pages}{1417\bibrangedash 1426}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.2307/1911408
+      \endverb
+    \endentry
+    \entry{shiller2017}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9d82a77d715bb25ddd61e8456f95a4f4}{%
+           family={Shiller},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{fullhash}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{fullhashraw}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{bibnamehash}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{authorbibnamehash}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{authornamehash}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{authorfullhash}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{authorfullhashraw}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{4}
+      \field{title}{Narrative Economics}
+      \field{volume}{107}
+      \field{year}{2017}
+      \field{pages}{967\bibrangedash 1004}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1257/aer.107.4.967
+      \endverb
+    \endentry
+    \entry{worldbankdebt}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{International Debt Statistics, World Bank}
+      \field{note}{Predetermined exposure measured in 2014}
+      \field{title}{External Debt Stocks (\% of GNI), Indicator DT.DOD.DECT.GN.ZS}
+      \field{urlday}{12}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/indicator/DT.DOD.DECT.GN.ZS
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/indicator/DT.DOD.DECT.GN.ZS
+      \endverb
+    \endentry
+    \entry{yeh2020}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=d01690e7c000fa7193adcc48b7cd1ee6}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e6d3351d9d7bf9403468eb52586ac7d}{%
+           family={Perez},
+           familyi={P\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb4cc4d506530b1ef2662a662027dfd1}{%
+           family={Driscoll},
+           familyi={D\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a237d3a03f5a2727c0a0a693947ab6b7}{%
+           family={Azzari},
+           familyi={A\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad2247e2c8961255258cf60b02980d9d}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Zhongyi},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20629a9831b6ae0a5ebfa6e97ea11892}{%
+           family={Lobell},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=160929a7e6ceecdf3f7c9a13abd5ea35}{%
+           family={Ermon},
+           familyi={E\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc8245e7c2a58c63604e2816e127e747}{%
+           family={Burke},
+           familyi={B\bibinitperiod},
+           given={Marshall},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6290722b94c6831220bf826f4ccb62eb}
+      \strng{fullhash}{b3a7a68793c3ccdc5f9262b168c5e753}
+      \strng{fullhashraw}{b3a7a68793c3ccdc5f9262b168c5e753}
+      \strng{bibnamehash}{b3a7a68793c3ccdc5f9262b168c5e753}
+      \strng{authorbibnamehash}{b3a7a68793c3ccdc5f9262b168c5e753}
+      \strng{authornamehash}{6290722b94c6831220bf826f4ccb62eb}
+      \strng{authorfullhash}{b3a7a68793c3ccdc5f9262b168c5e753}
+      \strng{authorfullhashraw}{b3a7a68793c3ccdc5f9262b168c5e753}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{title}{Using Publicly Available Satellite Imagery and Deep Learning to Understand Economic Well-Being in Africa}
+      \field{volume}{11}
+      \field{year}{2020}
+      \field{pages}{2583}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-020-16185-w
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{abrigo2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b10a5161d9402787bf69576568f62b8b}{%
+           family={Abrigo},
+           familyi={A\bibinitperiod},
+           given={Michael\bibnamedelimb R.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38a003b675ddf0b6d989735e50525e90}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Inessa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{fullhash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{fullhashraw}{532e402c0b937c95431ffd7a503b1049}
+      \strng{bibnamehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authorbibnamehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authornamehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authorfullhash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authorfullhashraw}{532e402c0b937c95431ffd7a503b1049}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Stata Journal}
+      \field{number}{3}
+      \field{title}{Estimation of Panel Vector Autoregression in Stata}
+      \field{volume}{16}
+      \field{year}{2016}
+      \field{pages}{778\bibrangedash 804}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1177/1536867X1601600314
+      \endverb
+    \endentry
+    \entry{ahir2022}{report}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1a1fa7a4f364515a8b11664cda47d92b}{%
+           family={Ahir},
+           familyi={A\bibinitperiod},
+           given={Hites},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f9ed1162402cc5a63ec1d1f470ea527}{%
+           family={Bloom},
+           familyi={B\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a177b6c6332482a0d6fe54ed6e931a2}{%
+           family={Furceri},
+           familyi={F\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{01603caa2afc35609bb141c1814d6a8f}
+      \strng{fullhash}{29105a41f1e1e2c1b0135d9b62329482}
+      \strng{fullhashraw}{29105a41f1e1e2c1b0135d9b62329482}
+      \strng{bibnamehash}{29105a41f1e1e2c1b0135d9b62329482}
+      \strng{authorbibnamehash}{29105a41f1e1e2c1b0135d9b62329482}
+      \strng{authornamehash}{01603caa2afc35609bb141c1814d6a8f}
+      \strng{authorfullhash}{29105a41f1e1e2c1b0135d9b62329482}
+      \strng{authorfullhashraw}{29105a41f1e1e2c1b0135d9b62329482}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{29763}
+      \field{title}{The World Uncertainty Index}
+      \field{type}{Working Paper}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.3386/w29763
+      \endverb
+    \endentry
+    \entry{baker2016}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=44c1fb654911b2846ca5c9262f750497}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Scott\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f9ed1162402cc5a63ec1d1f470ea527}{%
+           family={Bloom},
+           familyi={B\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=436e25609a5e8f78d485f754f4af4176}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Steven\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d8d72ca78173273239b3a45b739acce9}
+      \strng{fullhash}{06807450d490fd8ee92d0ce9beddc842}
+      \strng{fullhashraw}{06807450d490fd8ee92d0ce9beddc842}
+      \strng{bibnamehash}{06807450d490fd8ee92d0ce9beddc842}
+      \strng{authorbibnamehash}{06807450d490fd8ee92d0ce9beddc842}
+      \strng{authornamehash}{d8d72ca78173273239b3a45b739acce9}
+      \strng{authorfullhash}{06807450d490fd8ee92d0ce9beddc842}
+      \strng{authorfullhashraw}{06807450d490fd8ee92d0ce9beddc842}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{4}
+      \field{title}{Measuring Economic Policy Uncertainty}
+      \field{volume}{131}
+      \field{year}{2016}
+      \field{pages}{1593\bibrangedash 1636}
+      \range{pages}{44}
+      \verb{doi}
+      \verb 10.1093/qje/qjw024
+      \endverb
+    \endentry
+    \entry{bloom2009}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1f9ed1162402cc5a63ec1d1f470ea527}{%
+           family={Bloom},
+           familyi={B\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{fullhash}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{fullhashraw}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{bibnamehash}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{authorbibnamehash}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{authornamehash}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{authorfullhash}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \strng{authorfullhashraw}{1f9ed1162402cc5a63ec1d1f470ea527}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{3}
+      \field{title}{The Impact of Uncertainty Shocks}
+      \field{volume}{77}
+      \field{year}{2009}
+      \field{pages}{623\bibrangedash 685}
+      \range{pages}{63}
+      \verb{doi}
+      \verb 10.3982/ECTA6248
+      \endverb
+    \endentry
+    \entry{buell2021}{report}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=d4680cdcc551a6debb0185b257df4129}{%
+           family={Buell},
+           familyi={B\bibinitperiod},
+           given={Brandon},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2958796f0ff57bbcb4b612945b5adf38}{%
+           family={Cherif},
+           familyi={C\bibinitperiod},
+           given={Reda},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d2edcdfbf923baabee1c9bfab43e341}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Carissa},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63a9c990fbc560c7b6ccf387183b50d8}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Jiawen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=408430dd1593800d4dc7de723613544f}{%
+           family={Wendt},
+           familyi={W\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {International Monetary Fund}%
+      }
+      \strng{namehash}{63ea7b36615856e0daff0bf5d04dfb4b}
+      \strng{fullhash}{c543439adce7f6d67fcc2fef91baa31d}
+      \strng{fullhashraw}{c543439adce7f6d67fcc2fef91baa31d}
+      \strng{bibnamehash}{c543439adce7f6d67fcc2fef91baa31d}
+      \strng{authorbibnamehash}{c543439adce7f6d67fcc2fef91baa31d}
+      \strng{authornamehash}{63ea7b36615856e0daff0bf5d04dfb4b}
+      \strng{authorfullhash}{c543439adce7f6d67fcc2fef91baa31d}
+      \strng{authorfullhashraw}{c543439adce7f6d67fcc2fef91baa31d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{21/124}
+      \field{title}{Impact of {COVID-19}: Nowcasting and Big Data to Track Economic Activity in Sub-Saharan Africa}
+      \field{type}{Working Paper}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.5089/9781513582498.001
+      \endverb
+    \endentry
+    \entry{caldara2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5f270f9711a1f97bafde54495f318697}{%
+           family={Caldara},
+           familyi={C\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acea90ed4b11d5b6a53225c00869ef09}{%
+           family={Iacoviello},
+           familyi={I\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{fullhash}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{fullhashraw}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{bibnamehash}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{authorbibnamehash}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{authornamehash}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{authorfullhash}{45eddbbff9bd83730679491044b7c6ed}
+      \strng{authorfullhashraw}{45eddbbff9bd83730679491044b7c6ed}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{4}
+      \field{title}{Measuring Geopolitical Risk}
+      \field{volume}{112}
+      \field{year}{2022}
+      \field{pages}{1194\bibrangedash 1225}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1257/aer.20191823
+      \endverb
+    \endentry
+    \entry{cameron2011}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dab37900e0b3d1bbd6b945d99fef4b06}{%
+           family={Cameron},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi Colin},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d037e69d793c2bd3f19e61d52dd15337}{%
+           family={Gelbach},
+           familyi={G\bibinitperiod},
+           given={Jonah\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=666ff5de6a44e31611322ad1b6ddf9d3}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Douglas\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{de66073caceeddc66c6b6d44411fcfe3}
+      \strng{fullhash}{8ab93612723c51a9a5e7e7030929186a}
+      \strng{fullhashraw}{8ab93612723c51a9a5e7e7030929186a}
+      \strng{bibnamehash}{8ab93612723c51a9a5e7e7030929186a}
+      \strng{authorbibnamehash}{8ab93612723c51a9a5e7e7030929186a}
+      \strng{authornamehash}{de66073caceeddc66c6b6d44411fcfe3}
+      \strng{authorfullhash}{8ab93612723c51a9a5e7e7030929186a}
+      \strng{authorfullhashraw}{8ab93612723c51a9a5e7e7030929186a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business \& Economic Statistics}
+      \field{number}{2}
+      \field{title}{Robust Inference With Multiway Clustering}
+      \field{volume}{29}
+      \field{year}{2011}
+      \field{pages}{238\bibrangedash 249}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1198/jbes.2010.07136
+      \endverb
+    \endentry
+    \entry{fotopoulou2026}{report}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5c4aee0a15abadefaaa9bdadd4c38076}{%
+           family={Fotopoulou},
+           familyi={F\bibinitperiod},
+           given={Eurydice},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1a4ebc52f35590c9f58e2fbb5723b73}{%
+           family={Maduako},
+           familyi={M\bibinitperiod},
+           given={Iyke},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f92cdc32e45088a3a57a6ef5c63e0cb}{%
+           family={Sbrancia},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi Belen},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9ac57f2c398b11dcb32ffbbf2eeed8f}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Prachi},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {International Monetary Fund}%
+      }
+      \strng{namehash}{4ef5fc5b0f4db7f9b975c2000e7996f8}
+      \strng{fullhash}{2ac65160ab04a5945ea193ff0540c33f}
+      \strng{fullhashraw}{2ac65160ab04a5945ea193ff0540c33f}
+      \strng{bibnamehash}{2ac65160ab04a5945ea193ff0540c33f}
+      \strng{authorbibnamehash}{2ac65160ab04a5945ea193ff0540c33f}
+      \strng{authornamehash}{4ef5fc5b0f4db7f9b975c2000e7996f8}
+      \strng{authorfullhash}{2ac65160ab04a5945ea193ff0540c33f}
+      \strng{authorfullhashraw}{2ac65160ab04a5945ea193ff0540c33f}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{26/020}
+      \field{title}{Nowcasting Economic Growth with Machine Learning and Satellite Data}
+      \field{type}{Working Paper}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.5089/9798229037471.001
+      \endverb
+    \endentry
+    \entry{gentzkow2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7f632dc67b8bd2566eae625ec44fafd0}{%
+           family={Gentzkow},
+           familyi={G\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96799198bea175b6a69479505180a2cd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16e5ccc34f2ccb8bb3c2e92bb0f64013}{%
+           family={Taddy},
+           familyi={T\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{300bb1d59239c5d8ae741096e3c6cc08}
+      \strng{fullhash}{7fbd9f5ce05577850c292396dbb1de0c}
+      \strng{fullhashraw}{7fbd9f5ce05577850c292396dbb1de0c}
+      \strng{bibnamehash}{7fbd9f5ce05577850c292396dbb1de0c}
+      \strng{authorbibnamehash}{7fbd9f5ce05577850c292396dbb1de0c}
+      \strng{authornamehash}{300bb1d59239c5d8ae741096e3c6cc08}
+      \strng{authorfullhash}{7fbd9f5ce05577850c292396dbb1de0c}
+      \strng{authorfullhashraw}{7fbd9f5ce05577850c292396dbb1de0c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Literature}
+      \field{number}{3}
+      \field{title}{Text as Data}
+      \field{volume}{57}
+      \field{year}{2019}
+      \field{pages}{535\bibrangedash 574}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1257/jel.20181020
+      \endverb
+    \endentry
+    \entry{jarocinski2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e18649c0286efaa63631504aa04e3fd3}{%
+           family={Jarociński},
+           familyi={J\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75f6d47bff4a3d2b5ce170696229ff4c}{%
+           family={Karadi},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{fullhash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{fullhashraw}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{bibnamehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authorbibnamehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authornamehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authorfullhash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authorfullhashraw}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Macroeconomics}
+      \field{number}{2}
+      \field{title}{Deconstructing Monetary Policy Surprises---The Role of Information Shocks}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 43}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1257/mac.20180090
+      \endverb
+    \endentry
+    \entry{jolliffe2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2d87c65d6bc93daaaf4c9f1e98b5e53a}{%
+           family={Jolliffe},
+           familyi={J\bibinitperiod},
+           given={Ian\bibnamedelima T.},
+           giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7c36a415b2b525b1a13001347b85b34}{%
+           family={Cadima},
+           familyi={C\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{fullhash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{fullhashraw}{5cafe59e1897a85daaf352903ab478de}
+      \strng{bibnamehash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{authorbibnamehash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{authornamehash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{authorfullhash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{authorfullhashraw}{5cafe59e1897a85daaf352903ab478de}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society A}
+      \field{number}{2065}
+      \field{title}{Principal Component Analysis: A Review and Recent Developments}
+      \field{volume}{374}
+      \field{year}{2016}
+      \field{pages}{20150202}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rsta.2015.0202
+      \endverb
+    \endentry
+    \entry{jurado2015}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fe60e67bd32bdfe9503ee598277c35f5}{%
+           family={Jurado},
+           familyi={J\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6a56af42017edef3cf1028207671a70}{%
+           family={Ludvigson},
+           familyi={L\bibinitperiod},
+           given={Sydney\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d9598cb5e0ac67e52bb26096e0fd043}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Serena},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1bf10df0094a4c6bb6cfa05d5ab7b908}
+      \strng{fullhash}{1383369773a65ed190285366763add0b}
+      \strng{fullhashraw}{1383369773a65ed190285366763add0b}
+      \strng{bibnamehash}{1383369773a65ed190285366763add0b}
+      \strng{authorbibnamehash}{1383369773a65ed190285366763add0b}
+      \strng{authornamehash}{1bf10df0094a4c6bb6cfa05d5ab7b908}
+      \strng{authorfullhash}{1383369773a65ed190285366763add0b}
+      \strng{authorfullhashraw}{1383369773a65ed190285366763add0b}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{3}
+      \field{title}{Measuring Uncertainty}
+      \field{volume}{105}
+      \field{year}{2015}
+      \field{pages}{1177\bibrangedash 1216}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1257/aer.20131193
+      \endverb
+    \endentry
+    \entry{love2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=38a003b675ddf0b6d989735e50525e90}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Inessa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab1b9377060baee1150cec293bff6105}{%
+           family={Zicchino},
+           familyi={Z\bibinitperiod},
+           given={Lea},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{fullhash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{fullhashraw}{a919015afee4eb124afed07ae8f85eed}
+      \strng{bibnamehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authorbibnamehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authornamehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authorfullhash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authorfullhashraw}{a919015afee4eb124afed07ae8f85eed}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Review of Economics and Finance}
+      \field{number}{2}
+      \field{title}{Financial Development and Dynamic Investment Behavior: Evidence from Panel VAR}
+      \field{volume}{46}
+      \field{year}{2006}
+      \field{pages}{190\bibrangedash 210}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/j.qref.2005.11.007
+      \endverb
+    \endentry
+    \entry{mackinnon2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cfe7ee6a48f0dc865491ef865627d742}{%
+           family={MacKinnon},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ae2b24777e3b860e02219dc03481797}{%
+           family={Webb},
+           familyi={W\bibinitperiod},
+           given={Matthew\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e0fb40e090684dbd001eb71251906f03}
+      \strng{fullhash}{e0fb40e090684dbd001eb71251906f03}
+      \strng{fullhashraw}{e0fb40e090684dbd001eb71251906f03}
+      \strng{bibnamehash}{e0fb40e090684dbd001eb71251906f03}
+      \strng{authorbibnamehash}{e0fb40e090684dbd001eb71251906f03}
+      \strng{authornamehash}{e0fb40e090684dbd001eb71251906f03}
+      \strng{authorfullhash}{e0fb40e090684dbd001eb71251906f03}
+      \strng{authorfullhashraw}{e0fb40e090684dbd001eb71251906f03}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Econometrics}
+      \field{number}{2}
+      \field{title}{Wild Bootstrap Inference for Wildly Different Cluster Sizes}
+      \field{volume}{32}
+      \field{year}{2017}
+      \field{pages}{233\bibrangedash 254}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1002/jae.2508
+      \endverb
+    \endentry
+    \entry{mankiwreis2002}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=474cb51282bc298228df113afdfd755f}{%
+           family={Mankiw},
+           familyi={M\bibinitperiod},
+           given={N.\bibnamedelimi Gregory},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e01ab5989b7c5a875443a0ab19f121e4}{%
+           family={Reis},
+           familyi={R\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{fullhash}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{fullhashraw}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{bibnamehash}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{authorbibnamehash}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{authornamehash}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{authorfullhash}{a48613d09ff66004f4f5bd31b426f63a}
+      \strng{authorfullhashraw}{a48613d09ff66004f4f5bd31b426f63a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{4}
+      \field{title}{Sticky Information versus Sticky Prices: A Proposal to Replace the New Keynesian Phillips Curve}
+      \field{volume}{117}
+      \field{year}{2002}
+      \field{pages}{1295\bibrangedash 1328}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1162/003355302320935034
+      \endverb
+    \endentry
+    \entry{nickell1981}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=602e867f4abdc632f3f7cb4267f16254}{%
+           family={Nickell},
+           familyi={N\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{fullhash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{fullhashraw}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{bibnamehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authorbibnamehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authornamehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authorfullhash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authorfullhashraw}{602e867f4abdc632f3f7cb4267f16254}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{6}
+      \field{title}{Biases in Dynamic Models with Fixed Effects}
+      \field{volume}{49}
+      \field{year}{1981}
+      \field{pages}{1417\bibrangedash 1426}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.2307/1911408
+      \endverb
+    \endentry
+    \entry{shiller2017}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9d82a77d715bb25ddd61e8456f95a4f4}{%
+           family={Shiller},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{fullhash}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{fullhashraw}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{bibnamehash}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{authorbibnamehash}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{authornamehash}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{authorfullhash}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \strng{authorfullhashraw}{9d82a77d715bb25ddd61e8456f95a4f4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{4}
+      \field{title}{Narrative Economics}
+      \field{volume}{107}
+      \field{year}{2017}
+      \field{pages}{967\bibrangedash 1004}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1257/aer.107.4.967
+      \endverb
+    \endentry
+    \entry{worldbankdebt}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{International Debt Statistics, World Bank}
+      \field{note}{Predetermined exposure measured in 2014}
+      \field{title}{External Debt Stocks (\% of GNI), Indicator DT.DOD.DECT.GN.ZS}
+      \field{urlday}{12}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/indicator/DT.DOD.DECT.GN.ZS
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/indicator/DT.DOD.DECT.GN.ZS
+      \endverb
+    \endentry
+    \entry{yeh2020}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=d01690e7c000fa7193adcc48b7cd1ee6}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e6d3351d9d7bf9403468eb52586ac7d}{%
+           family={Perez},
+           familyi={P\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb4cc4d506530b1ef2662a662027dfd1}{%
+           family={Driscoll},
+           familyi={D\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a237d3a03f5a2727c0a0a693947ab6b7}{%
+           family={Azzari},
+           familyi={A\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad2247e2c8961255258cf60b02980d9d}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Zhongyi},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20629a9831b6ae0a5ebfa6e97ea11892}{%
+           family={Lobell},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=160929a7e6ceecdf3f7c9a13abd5ea35}{%
+           family={Ermon},
+           familyi={E\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc8245e7c2a58c63604e2816e127e747}{%
+           family={Burke},
+           familyi={B\bibinitperiod},
+           given={Marshall},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6290722b94c6831220bf826f4ccb62eb}
+      \strng{fullhash}{b3a7a68793c3ccdc5f9262b168c5e753}
+      \strng{fullhashraw}{b3a7a68793c3ccdc5f9262b168c5e753}
+      \strng{bibnamehash}{b3a7a68793c3ccdc5f9262b168c5e753}
+      \strng{authorbibnamehash}{b3a7a68793c3ccdc5f9262b168c5e753}
+      \strng{authornamehash}{6290722b94c6831220bf826f4ccb62eb}
+      \strng{authorfullhash}{b3a7a68793c3ccdc5f9262b168c5e753}
+      \strng{authorfullhashraw}{b3a7a68793c3ccdc5f9262b168c5e753}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{title}{Using Publicly Available Satellite Imagery and Deep Learning to Understand Economic Well-Being in Africa}
+      \field{volume}{11}
+      \field{year}{2020}
+      \field{pages}{2583}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-020-16185-w
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

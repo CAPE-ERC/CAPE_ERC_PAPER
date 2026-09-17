@@ -1,0 +1,31 @@
+Figure 1. News coverage and eligible country observations
+File: Figure_1.pdf
+Notes: The left panel reports total retained article records by month. The right panel counts countries with at least 100 articles. Article counts refer to retained records before story-level exact-text deduplication. Changes in the archive can affect measured coverage.
+
+Figure 2. Aggregate AERI and ARS dynamics
+File: Figure_2.pdf
+Notes: Lines are unweighted country medians; shaded regions are interquartile ranges. The annotation marks the COVID-19 pandemic shock at the maximum monthly median AERI in the sample (April 2020, 68.94). Only country-months with at least 100 articles enter. Neither series is weighted by GDP. ARS uses the fixed PCA calibration.
+
+Figure 3. Weighting sensitivity of the AERI-related and ARS measures
+File: Figure_3.pdf
+Notes: Panel A compares AERI with the eight-pillar PCA common-factor composite. Panel B compares benchmark ARS, using 40/25/20/15 weights on intensity, breadth, severity and structure, with PCA-weighted ARS. Lines are monthly unweighted country medians for country-months with at least 100 retained articles. The vertical reference marks April 2020. The monthly-median correlations are 0.558 for AERI versus the eight-pillar PCA composite and 0.975 for benchmark versus PCA-weighted ARS.
+
+Figure 4. Annual AERI in selected African economies
+File: Figure_4.pdf
+Notes: The figure reports annual AERI for the ten illustrative economies over 2015-2025. Monthly AERI values are aggregated using monthly retained-article counts, so the annual statistic preserves the article-score numerator and denominator. The ten countries form the illustrative country group used in the descriptive discussion, and the underlying annual file covers all 54 economies. The common colour scale highlights substantial cross-country differences in levels, persistence and the timing of peaks.
+
+Figure 5. Average domain-specific pillar indices
+File: Figure_5.pdf
+Notes: Bars are ordered by magnitude and report pooled means of the eight raw pillar indices across 6,488 country-months with at least 100 retained articles. Each pillar uses the same graded article score as AERI, with the numerator restricted to articles assigned to that domain. Pillars are non-exclusive, so a single article may contribute to several domain indices. Financial-sector and debt/fiscal reporting have the largest pooled means in this vintage.
+
+Figure 6. Headline inflation response to an inflation-risk innovation
+File: Figure_6.pdf
+Notes: The figure uses the 36-country GDP-augmented PVAR(3), estimated on 4,286 observations. The innovation is a one-within-country-standard-deviation increase in the article-score inflation-risk pillar. Bands are pointwise 90 percent intervals from 400 country-cluster bootstrap draws. The three inflation-risk lags are jointly significant in the headline-inflation equation (p=0.0299); the response is positive at every reported horizon and peaks at 0.531 percentage points in month 6.
+
+Figure 7. AERI responses to exchange-rate and real-activity innovations
+File: Figure_7.pdf
+Notes: Reverse 36-country GDP-augmented PVAR(3), estimated on 4,286 observations. Depreciation raises AERI, peaking at 0.0166 within-country standard deviations in month 2; GDP growth is followed by a -0.181 standard-deviation AERI response in month 1. Shading denotes pointwise 90 percent country-cluster bootstrap intervals. The opposite signs are consistent with higher reported risk under currency stress and lower reported risk after stronger activity.
+
+Figure 8. AERI response to an externally identified U.S. monetary-policy tightening by predetermined external-debt exposure
+File: Figure_8.pdf
+Notes: The sample contains 29 African economies with AERI and 2014 external-debt exposure. The line reports the local-projection interaction coefficient; shaded bands are pointwise 90 percent finite-cluster intervals using 28 denominator degrees of freedom. The shock is the standardised pure monetary-policy surprise from Jarocinski and Karadi (2020), and exposure is standardised log(1 + 2014 external debt/GNI). The dependent variable is the cumulative change in AERI from month t-1 through horizon h. Country and year-month fixed effects and three lags of the outcome and interaction are included; standard errors are two-way clustered by country and month. The differential response is positive and statistically significant at months 4 and 9 under the finite-cluster reference.

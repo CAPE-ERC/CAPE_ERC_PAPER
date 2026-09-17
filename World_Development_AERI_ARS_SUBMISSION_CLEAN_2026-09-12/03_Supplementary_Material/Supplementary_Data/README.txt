@@ -1,0 +1,1 @@
+Supplementary data/source assets for the online Supplementary Material. Figures are supplied as separate artwork files in Figures/. Editable supplementary tables are supplied as LaTeX text in Tables/.

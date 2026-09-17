@@ -1,0 +1,6 @@
+main.tex
+News_Based_FX_Risk_Market_Alignment_Volatility_Africa_LATEX_FINAL.pdf
+figures/
+supplement/
+README.txt
+MANIFEST.txt

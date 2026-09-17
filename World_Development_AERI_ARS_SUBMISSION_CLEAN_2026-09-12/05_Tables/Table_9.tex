@@ -1,0 +1,22 @@
+\begin{table}[htbp]\centering
+\caption{Externally identified monetary-policy exposure validation}
+\label{tab:external_identification}
+\begin{singlespace}\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}p{4.7cm}cccc@{}}
+\toprule
+Specification & $\hat\beta_4$ & $p_4$ & $\hat\beta_9$ & $p_9$\\
+\midrule
+Primary: log debt/GNI & 0.272 & 0.0086 & 0.384 & 0.0373\\
+Raw debt/GNI & 0.203 & 0.0152 & 0.289 & 0.0556\\
+95th-percentile-capped debt/GNI & 0.230 & 0.0284 & 0.347 & 0.0566\\
+Exclude Mozambique & 0.265 & 0.0305 & 0.390 & 0.0610\\
+African-country panel restricted to FOMC announcement months & 0.299 & 0.0078 & 0.354 & 0.0395\\
+Alternative monetary-policy shock & 0.251 & 0.0068 & 0.420 & 0.0534\\
+\midrule
+Leave-one-country-out range & [0.214, 0.308] & 29/29 $p<0.10$ & [0.282, 0.455] & 29/29 $p<0.10$\\
+\bottomrule
+\end{tabular}
+\end{singlespace}
+\begin{singlespace}\footnotesize\textit{Notes:} The dependent variable is the cumulative change in AERI from month $t-1$ through horizon $h$. The shock is the standardized pure U.S. monetary-policy surprise from the Jaroci\'{n}ski--Karadi high-frequency decomposition, aggregated to the month. Predetermined exposure is 2014 external debt stocks as a share of GNI from the World Bank, transformed as $\log(1+x)$ and standardized in the primary specification. All regressions include country and year-month fixed effects, three lags of the AERI change and three lags of the shock--exposure interaction. Standard errors are two-way clustered by country and month. Reported $p$-values use a finite-cluster $t$ reference with degrees of freedom equal to the number of African-country clusters minus one. Restricted wild-cluster-bootstrap $p$-values for the primary month-four and month-nine coefficients are 0.042 and 0.034, respectively. In the leave-one-country-out exercise, 28 of 29 month-four estimates and 24 of 29 month-nine estimates also satisfy $p<0.05$.\end{singlespace}
+\end{table}

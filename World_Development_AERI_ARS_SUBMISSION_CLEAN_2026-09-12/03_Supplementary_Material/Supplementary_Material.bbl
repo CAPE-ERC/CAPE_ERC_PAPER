@@ -1,0 +1,343 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/apasortcite//global/global/global}
+    \entry{abrigo2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b10a5161d9402787bf69576568f62b8b}{%
+           family={Abrigo},
+           familyi={A\bibinitperiod},
+           given={Michael\bibnamedelimb R.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38a003b675ddf0b6d989735e50525e90}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Inessa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{fullhash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{fullhashraw}{532e402c0b937c95431ffd7a503b1049}
+      \strng{bibnamehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authorbibnamehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authornamehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authorfullhash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authorfullhashraw}{532e402c0b937c95431ffd7a503b1049}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Stata Journal}
+      \field{number}{3}
+      \field{title}{Estimation of Panel Vector Autoregression in Stata}
+      \field{volume}{16}
+      \field{year}{2016}
+      \field{pages}{778\bibrangedash 804}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1177/1536867X1601600314
+      \endverb
+    \endentry
+    \entry{jarocinski2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e18649c0286efaa63631504aa04e3fd3}{%
+           family={Jarociński},
+           familyi={J\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75f6d47bff4a3d2b5ce170696229ff4c}{%
+           family={Karadi},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{fullhash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{fullhashraw}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{bibnamehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authorbibnamehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authornamehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authorfullhash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authorfullhashraw}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Macroeconomics}
+      \field{number}{2}
+      \field{title}{Deconstructing Monetary Policy Surprises---The Role of Information Shocks}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 43}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1257/mac.20180090
+      \endverb
+    \endentry
+    \entry{love2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=38a003b675ddf0b6d989735e50525e90}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Inessa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab1b9377060baee1150cec293bff6105}{%
+           family={Zicchino},
+           familyi={Z\bibinitperiod},
+           given={Lea},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{fullhash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{fullhashraw}{a919015afee4eb124afed07ae8f85eed}
+      \strng{bibnamehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authorbibnamehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authornamehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authorfullhash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authorfullhashraw}{a919015afee4eb124afed07ae8f85eed}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Review of Economics and Finance}
+      \field{number}{2}
+      \field{title}{Financial Development and Dynamic Investment Behavior: Evidence from Panel VAR}
+      \field{volume}{46}
+      \field{year}{2006}
+      \field{pages}{190\bibrangedash 210}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/j.qref.2005.11.007
+      \endverb
+    \endentry
+    \entry{nickell1981}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=602e867f4abdc632f3f7cb4267f16254}{%
+           family={Nickell},
+           familyi={N\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{fullhash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{fullhashraw}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{bibnamehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authorbibnamehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authornamehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authorfullhash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authorfullhashraw}{602e867f4abdc632f3f7cb4267f16254}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{6}
+      \field{title}{Biases in Dynamic Models with Fixed Effects}
+      \field{volume}{49}
+      \field{year}{1981}
+      \field{pages}{1417\bibrangedash 1426}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.2307/1911408
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{abrigo2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b10a5161d9402787bf69576568f62b8b}{%
+           family={Abrigo},
+           familyi={A\bibinitperiod},
+           given={Michael\bibnamedelimb R.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38a003b675ddf0b6d989735e50525e90}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Inessa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{fullhash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{fullhashraw}{532e402c0b937c95431ffd7a503b1049}
+      \strng{bibnamehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authorbibnamehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authornamehash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authorfullhash}{532e402c0b937c95431ffd7a503b1049}
+      \strng{authorfullhashraw}{532e402c0b937c95431ffd7a503b1049}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Stata Journal}
+      \field{number}{3}
+      \field{title}{Estimation of Panel Vector Autoregression in Stata}
+      \field{volume}{16}
+      \field{year}{2016}
+      \field{pages}{778\bibrangedash 804}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1177/1536867X1601600314
+      \endverb
+    \endentry
+    \entry{jarocinski2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e18649c0286efaa63631504aa04e3fd3}{%
+           family={Jarociński},
+           familyi={J\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75f6d47bff4a3d2b5ce170696229ff4c}{%
+           family={Karadi},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{fullhash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{fullhashraw}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{bibnamehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authorbibnamehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authornamehash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authorfullhash}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \strng{authorfullhashraw}{3bc111ecaacceddcd24a68b86ee58ea0}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Macroeconomics}
+      \field{number}{2}
+      \field{title}{Deconstructing Monetary Policy Surprises---The Role of Information Shocks}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 43}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1257/mac.20180090
+      \endverb
+    \endentry
+    \entry{love2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=38a003b675ddf0b6d989735e50525e90}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Inessa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab1b9377060baee1150cec293bff6105}{%
+           family={Zicchino},
+           familyi={Z\bibinitperiod},
+           given={Lea},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{fullhash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{fullhashraw}{a919015afee4eb124afed07ae8f85eed}
+      \strng{bibnamehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authorbibnamehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authornamehash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authorfullhash}{a919015afee4eb124afed07ae8f85eed}
+      \strng{authorfullhashraw}{a919015afee4eb124afed07ae8f85eed}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Review of Economics and Finance}
+      \field{number}{2}
+      \field{title}{Financial Development and Dynamic Investment Behavior: Evidence from Panel VAR}
+      \field{volume}{46}
+      \field{year}{2006}
+      \field{pages}{190\bibrangedash 210}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/j.qref.2005.11.007
+      \endverb
+    \endentry
+    \entry{nickell1981}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=602e867f4abdc632f3f7cb4267f16254}{%
+           family={Nickell},
+           familyi={N\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{fullhash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{fullhashraw}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{bibnamehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authorbibnamehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authornamehash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authorfullhash}{602e867f4abdc632f3f7cb4267f16254}
+      \strng{authorfullhashraw}{602e867f4abdc632f3f7cb4267f16254}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{6}
+      \field{title}{Biases in Dynamic Models with Fixed Effects}
+      \field{volume}{49}
+      \field{year}{1981}
+      \field{pages}{1417\bibrangedash 1426}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.2307/1911408
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
