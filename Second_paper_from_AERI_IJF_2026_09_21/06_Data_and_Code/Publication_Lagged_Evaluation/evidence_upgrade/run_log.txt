@@ -1,0 +1,32 @@
+H12 DESIGNS
+ Horizon Design                                                          Description    N  Benchmark_RMSFE  GRE_RMSFE  Relative_RMSFE  Benchmark_MAE  GRE_MAE  Relative_MAE  Raw_gain_mean  CW_gain_mean
+      12      R               Retrospective: final-vintage lags + immediate training 3887         6.686217   6.660024        0.996083       4.072186 4.043841      0.993039       0.349579      0.632164
+      12      L Lag-corrected only: publication-lagged GDP lags + immediate training 3887         8.821152   8.836541        1.001745       5.318037 5.355207      1.006990      -0.271729      0.214045
+      12      T       Training-corrected only: final-vintage lags + delayed outcomes 3887        15.386594  15.334988        0.996646       6.071850 6.051819      0.996701       1.585443      1.710103
+      12      P       Fully publication-lagged: feasible GDP lags + delayed outcomes 3887        19.263535  19.356723        1.004838       7.027833 7.113591      1.012203      -3.598930     -3.084982
+
+FORMAL
+ Horizon Loss                                  Contrast      mean     hac_t    hac_p  two_way_t  two_way_p  target_months    N
+       1  raw    Total information-set correction (P-R)  0.506571  1.453817 0.150403   0.717062   0.476484             72 3887
+       1  raw         GDP-lag channel (Shapley average)  0.814615  2.039262 0.045147   1.118941   0.268211             72 3887
+       1  raw Training-timing channel (Shapley average) -0.308044 -2.084160 0.040745  -1.793967   0.078524             72 3887
+       1   cw    Total information-set correction (P-R)  1.176084  3.382086 0.001173   1.646635   0.105551             72 3887
+       1   cw         GDP-lag channel (Shapley average)  1.619741  3.607694 0.000571   2.032020   0.047177             72 3887
+       1   cw Training-timing channel (Shapley average) -0.443657 -2.272253 0.026102  -1.954005   0.055987             72 3887
+      12  raw    Total information-set correction (P-R) -3.948509 -1.667219 0.099876  -1.511673   0.136557             72 3887
+      12  raw         GDP-lag channel (Shapley average) -2.902840 -2.386504 0.019677  -2.013528   0.049149             72 3887
+      12  raw Training-timing channel (Shapley average) -1.045669 -0.683560 0.496478  -0.787792   0.434328             72 3887
+      12   cw    Total information-set correction (P-R) -3.717146 -1.461161 0.148383  -1.427909   0.159184             72 3887
+      12   cw         GDP-lag channel (Shapley average) -2.606602 -1.959167 0.054021  -1.820511   0.074329             72 3887
+      12   cw Training-timing channel (Shapley average) -1.110544 -0.700692 0.485786  -0.835190   0.407360             72 3887
+
+EXCOVID
+ Horizon Design                                                    Description    N  TargetMonths  Benchmark_RMSFE  GRE_RMSFE  Relative_RMSFE  Benchmark_MAE  GRE_MAE  Relative_MAE  CW_HAC_p  CW_2Way_p
+       1      R         Retrospective: final-vintage lags + immediate training 2591            48         0.112742   0.112752        1.000089       0.038549 0.038541      0.999808  0.731922   0.691870
+       1      P Fully publication-lagged: feasible GDP lags + delayed outcomes 2591            48         6.948904   6.897567        0.992612       4.644565 4.580838      0.986279  0.000045   0.027086
+       3      R         Retrospective: final-vintage lags + immediate training 2591            48         0.635513   0.635659        1.000230       0.274342 0.274592      1.000911  0.510074   0.506458
+       3      P Fully publication-lagged: feasible GDP lags + delayed outcomes 2591            48         6.989453   6.940040        0.992930       4.698559 4.645503      0.988708  0.001384   0.028887
+       6      R         Retrospective: final-vintage lags + immediate training 2591            48         2.055905   2.054804        0.999464       1.064761 1.064843      1.000076  0.142140   0.208764
+       6      P Fully publication-lagged: feasible GDP lags + delayed outcomes 2591            48         6.904180   6.896011        0.998817       4.571271 4.561082      0.997771  0.081102   0.158289
+      12      R         Retrospective: final-vintage lags + immediate training 2591            48         6.229493   6.214753        0.997634       3.749380 3.736220      0.996490  0.077801   0.162604
+      12      P Fully publication-lagged: feasible GDP lags + delayed outcomes 2591            48         6.771803   6.861806        1.013291       4.175849 4.271391      1.022880  0.969733   0.770605
