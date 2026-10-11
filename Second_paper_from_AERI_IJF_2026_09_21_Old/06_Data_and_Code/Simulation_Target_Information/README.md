@@ -1,0 +1,3 @@
+# Target-information Monte Carlo
+
+`run_target_information_monte_carlo.py` reproduces three 1,000-replication designs used in the paper: (i) a modest current-state signal, (ii) a pure-noise placebo, and (iii) a persistent-state stress DGP. The stress DGP raises annual persistence and the signal-to-noise ratio specifically to demonstrate that retrospective final-vintage treatment can produce the same *direction* of 12-month reversal observed empirically; it is not claimed to estimate the African DGP or identify the empirical mechanism. Use `python run_target_information_monte_carlo.py --replications 10` for a quick smoke test.

@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering\scriptsize
+\caption{Direct loss-gain tests for the 12-month information-set correction}
+\label{stab:channel_loss_tests}
+\begin{tabular}{llrrrr}
+\toprule
+Loss metric & Contrast & Mean change & HAC $t$ & HAC $p$ & Two-way $p$ \\
+\midrule
+Raw squared-error gain & Total correction, $P-R$ & -3.9485 & -1.667 & 0.100 & 0.137 \\
+Raw squared-error gain & GDP-lag Shapley channel & -2.9028 & -2.387 & 0.020 & 0.049 \\
+Raw squared-error gain & Training-timing Shapley channel & -1.0457 & -0.684 & 0.496 & 0.434 \\
+Clark--West gain & Total correction, $P-R$ & -3.7171 & -1.461 & 0.148 & 0.159 \\
+Clark--West gain & GDP-lag Shapley channel & -2.6066 & -1.959 & 0.054 & 0.074 \\
+Clark--West gain & Training-timing Shapley channel & -1.1105 & -0.701 & 0.486 & 0.407 \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.97\textwidth}\footnotesize\textit{Notes:} A positive change means that the stated correction increases the GRE model's loss advantage relative to the benchmark; a negative change reduces it. Tests are two-sided because the sign of the information-set distortion is not imposed ex ante. HAC inference is computed after averaging the paired contrast across countries within target month. Two-way covariance clusters by country and target month. These loss-gain tests complement the nonlinear relative-RMSFE block bootstrap reported in the main text.\end{minipage}
+\end{table}

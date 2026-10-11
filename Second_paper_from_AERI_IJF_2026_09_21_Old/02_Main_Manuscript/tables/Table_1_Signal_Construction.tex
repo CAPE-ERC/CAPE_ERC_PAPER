@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Construction of the Growth/Real Economy news signal}
+\label{tab:construction}
+\begin{tabularx}{\textwidth}{p{0.19\textwidth}X}
+\toprule
+Stage & Definition and interpretation \\
+\midrule
+Economic relevance $R_i$ & Indicator that normalized article text contains economically relevant content. Articles failing this screen contribute zero to the signal but remain in the country-month denominator. \\
+Real-economy activation $G_i$ & Indicator that the article activates the frozen Growth/Real Economy dictionary: recession, slowdown, contraction, unemployment, layoffs, and the corresponding French and Portuguese activation terms. Broader GDP/growth vocabulary belongs to the economic-relevance screen rather than this target-specific activation rule. \\
+Severity $S_i$ & Ordinal score for relevant articles: 1 = background or mild pressure; 2 = material deterioration; 3 = severe disruption; 4 = extreme or systemic real-economy stress. The highest matched tier applies. \\
+Textual emphasis $W_i$ & $\operatorname{clip}(1+0.5T_i+0.2L_i+0.3M_i,1,2)$, where $T_i$ marks headline emphasis, $L_i$ marks at least 1,200 normalized characters, and $M_i$ marks economically dense multi-domain content. \\
+Article contribution $Q_i$ & $Q_i=R_iG_iS_iW_i$. Only economically relevant articles that activate the real-economy domain contribute positive weight. \\
+Country-month signal $GRE_{ct}$ & $100N_{ct}^{-1}\sum_{i\in\mathcal A_{ct}}Q_i$, where $N_{ct}$ is the total number of retained articles. The signal therefore reflects both the prevalence and the intensity of real-economy risk reporting. \\
+\bottomrule
+\end{tabularx}
+\end{table}

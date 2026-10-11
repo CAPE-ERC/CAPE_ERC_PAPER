@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering\scriptsize
+\caption{One-month GRE performance before and after the assumed annual-data release month}
+\label{tab:staleness}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrr}
+\toprule
+Release convention & Information state & Target months & Rel. RMSFE & Rel. MAE & HAC CW $p$ \\
+\midrule
+May & Stale pre-release & 24 & 0.9925 & 0.9804 & 0.0008 \\
+May & Refreshed post-release & 48 & 0.9985 & 0.9947 & 0.0286 \\
+July & Stale pre-release & 36 & 0.9937 & 0.9815 & 0.0001 \\
+July & Refreshed post-release & 36 & 1.0010 & 0.9984 & 0.1432 \\
+November & Stale pre-release & 60 & 0.9975 & 0.9907 & 0.0005 \\
+November & Refreshed post-release & 12 & 0.9961 & 0.9926 & 0.0574 \\
+\bottomrule
+\end{tabular}}
+\vspace{0.35em}
+\begin{minipage}{0.97\textwidth}\footnotesize\textit{Notes:} ``Stale'' denotes forecast origins before the assumed release month in year $y+1$, when the most recent permitted annual GDP benchmark is one year older than it is after the release. The May and July conventions show substantially larger raw-loss gains in stale months. The November split has only 12 post-release target months and does not preserve the same RMSFE ordering. Formal stacked information-age and revision regressions are reported in the text and supplement and do not establish a monotonic causal mechanism.\end{minipage}
+\end{table}

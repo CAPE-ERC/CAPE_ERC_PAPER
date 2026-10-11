@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering\scriptsize
+\caption{One-month GRE comparison against a wide macroeconomic factor benchmark}
+\label{tab:wide_factor}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Benchmark information & Benchmark RMSFE & +GRE RMSFE & Rel. RMSFE & Rel. MAE & HAC CW $p$ & Two-way $p$ \\
+\midrule
+Pooled AR, publication-lagged GDP lags & 8.375 & 8.344 & 0.9964 & 0.9897 & 0.0006 & 0.053 \\
+Wide factors, macro variables lagged 1 month & 9.325 & 9.313 & 0.9987 & 0.9946 & 0.112 & 0.148 \\
+Wide factors, macro variables lagged 2 months & 9.875 & 9.881 & 1.0006 & 0.9972 & 0.451 & 0.457 \\
+\bottomrule
+\end{tabular}}
+\vspace{0.35em}
+\begin{minipage}{0.97\textwidth}\footnotesize\textit{Notes:} The wide information set contains 162 candidate monthly series: publication-lagged GDP growth, inflation, and exchange-rate depreciation for 54 economies. Series with fewer than 24 observations in the 2016:03--2018:12 calibration window or negligible variance are removed, leaving 159. Means, standard deviations, and PCA loadings are frozen before evaluation. Six components are retained because they are the minimum needed to exceed 80 percent of pre-evaluation variance (82.1 percent). The wide factor benchmark is data-rich but has higher absolute RMSFE than the parsimonious AR benchmark. The inflation and exchange-rate series are supplied final-vintage macro data without archived release vintages, so one- and two-month lags are used as timing safeguards rather than claimed real-time vintages. GRE's small incremental improvement is not statistically significant against this benchmark.\end{minipage}
+\end{table}

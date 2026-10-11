@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Target-information audit: final-vintage lags versus publication-lagged lags}
+\label{tab:target_audit}
+\begin{tabularx}{\textwidth}{p{0.35\textwidth}rrX}
+\toprule
+Design & Horizon & Relative RMSFE & Interpretation \\
+\midrule
+Final-vintage monthly GDP treated as available at origin & 12 & 0.9961 & Retrospective diagnostic only; nominal CW $p=0.033$. \\
+Publication-lagged GDP information set & 12 & 1.0048 & No long-horizon GRE gain; HAC CW $p=0.905$. \\
+Publication-lagged GDP information set & 1 & 0.9964 & Modest short-horizon predictive content; HAC CW $p=0.0006$. \\
+\bottomrule
+\end{tabularx}
+\vspace{0.35em}
+\begin{minipage}{0.97\textwidth}\footnotesize\textit{Notes:} The first row reproduces the earlier working specification in which the final-vintage temporally disaggregated GDP proxy was also used as forecast-origin lag information. Because that monthly path incorporates annual benchmarks not available at historical origins, it is not used as pseudo-out-of-sample evidence in the revised paper. The corrected design uses the final-vintage series only as the realized outcome and reconstructs forecast-origin GDP information under explicit release lags.\end{minipage}
+\end{table}
