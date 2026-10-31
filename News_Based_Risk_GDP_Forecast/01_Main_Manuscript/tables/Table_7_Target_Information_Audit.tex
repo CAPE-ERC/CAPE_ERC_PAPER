@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Target-information audit: final-vintage lags versus publication-lagged lags}
+\label{tab:target_audit}
+\begin{tabularx}{\textwidth}{p{0.35\textwidth}rrX}
+\toprule
+Design & Horizon & Relative RMSFE & Interpretation \\
+\midrule
+Final-vintage monthly GDP treated as available at origin & 12 & 0.9961 & Retrospective diagnostic only; nominal CW $p=0.033$. \\
+Publication-lagged GDP information set & 12 & 1.0048 & No long-horizon GRE gain; HAC CW $p=0.905$. \\
+Publication-lagged GDP information set & 1 & 0.9964 & Modest short-horizon predictive content; HAC CW $p=0.0006$. \\
+\bottomrule
+\end{tabularx}
+\vspace{0.35em}
+
+\TableNote{The retrospective line is an audit of a specification that used the final GDP reconstruction as both a scoring outcome and a historical predictor. It is not interpreted as a feasible forecast backtest. All rows keep the same final-vintage scoring outcomes. The May-rule design reconstructs forecast-origin GDP lags and delays training-label entry, but does not reconstruct the labels from archived vintages. Clark--West $p$-values test an adjusted nested-model loss differential, not the reported raw RMSFE ratio itself.}
+\end{table}

@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Sensitivity of the one-month GRE result to annual-data release timing}
+\label{tab:release_timing}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Annual year $y$ usable from & Rel. RMSFE & Rel. MAE & HAC CW $p$ & Two-way $p$ & Bootstrap CW $p$ & Countries $<1$ \\
+\midrule
+May of $y+1$ & 0.9964 & 0.9897 & 0.0006 & 0.053 & 0.037 & 33/54 \\
+July of $y+1$ & 0.9969 & 0.9894 & 0.0004 & 0.039 & 0.038 & 31/54 \\
+November of $y+1$ & 0.9973 & 0.9910 & 0.0001 & 0.030 & 0.019 & 32/54 \\
+\bottomrule
+\end{tabular}}
+\vspace{0.35em}
+
+\TableNote{Annual totals for year $y$ are treated as eligible starting in the listed month of $y+1$, with no claim that all countries used that calendar. The denominator of ``Countries $<1$'' is 54; the numerator counts countries whose one-month GRE RMSFE is below their own benchmark RMSFE. The 5,000-draw bootstrap resamples 12-month target-date blocks across the full country cross-section. See the supplement for the separate age-of-information and revision diagnostics; neither establishes a mechanism.}
+\end{table}

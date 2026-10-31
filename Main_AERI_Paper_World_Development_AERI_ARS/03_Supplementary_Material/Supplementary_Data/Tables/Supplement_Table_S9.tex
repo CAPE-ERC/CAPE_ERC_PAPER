@@ -1,0 +1,26 @@
+\begin{table}[H]\centering\small\singlespacing
+\caption{Illustrative keyword taxonomy used in article scoring}\label{tab:keyword_example}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{p{2.6cm}p{5.7cm}p{6.1cm}}\toprule
+Scoring layer & Illustrative terms from the production dictionary & Role in the computation\\\midrule
+Economic relevance & economy, GDP, inflation, budget, debt, central bank, currency, bank, unemployment; French examples include \emph{économie}, \emph{PIB}, \emph{dette}, \emph{taux de change}; Portuguese examples include \emph{economia}, \emph{PIB}, \emph{dívida}, \emph{câmbio} & At least one match sets $R_i=1$. Non-matching articles receive a zero article score but remain in the country-month denominator.\\
+Risk pillars & Inflation: inflation, cost of living, shortage; FX/external: exchange rate, currency, devaluation, reserves; debt/fiscal: debt, default, restructuring, budget deficit; growth: recession, slowdown, unemployment; analogous dictionaries define the other four pillars & Pillar matches identify the domain composition of a relevant article. Pillars are non-exclusive and repeated mentions do not increase the pillar weight.\\
+Severity tiers & Tier 1: concern, risk, uncertainty; Tier 2: surge, spike, worsening, deterioration; Tier 3: crisis, collapse, emergency; Tier 4: default, hyperinflation, bank run, economic collapse & A relevant article receives baseline severity 1; when several severity cues occur, $S_i$ equals the highest matched tier.\\
+Title/emphasis cues & crisis, default, devaluation, inflation, shortage, collapse, debt, restructuring, recession, bank, emergency & A title match adds 0.5 to $W_i$; a body of at least 1,200 normalised characters adds 0.2; two or more active pillars add 0.3. The weight is clipped to $[1,2]$.\\
+\bottomrule\end{tabular}
+\begin{singlespace}\footnotesize\raggedright
+\textit{Notes:} The table reports representative terms rather than the full dictionary. The supplied production configuration contains explicit English, French and Portuguese terms. Terms are assigned to relevance, pillar, severity and title-hint dictionaries before aggregation, independently of the subsequent macroeconomic validation outcomes.
+\end{singlespace}
+\end{table}
+
+\paragraph{Worked scoring example.}
+Consider a hypothetical article titled ``Inflation surge after currency devaluation.'' Suppose the normalised body exceeds 1,200 characters and contains no severity cue above tier 2. The article matches the economic-relevance dictionary, the inflation and FX/external pillars, the tier-2 term ``surge,'' and a title-risk cue. Hence $R_i=1$, $S_i=2$, $T_i=L_i=M_i=1$, so
+\[
+W_i=\clip(1+0.5+0.2+0.3,1,2)=2,
+\qquad A_i=R_iS_iW_i=4.
+\]
+If a country-month contains 100 retained articles and this is the only relevant article, this one record contributes $100(4/100)=4$ points to AERI. The inflation and FX/external pillar indices each receive 4 points because the article contributes once to each active pillar. The same hypothetical month has breadth $B=1/100=0.01$, conditional severity $V/4=2/4=0.50$, and structural spread $K/8=2/8=0.25$. With the fixed PCA ARS weights $(0.2625,0.2722,0.3223,0.1430)$ and intensity $\mathrm{AERI}/200=0.02$, the corresponding illustrative score is
+\[
+\mathrm{ARS}=100\{0.2625(0.02)+0.2722(0.01)+0.3223(0.50)+0.1430(0.25)\}=20.49.
+\]
+The example is purely mechanical and illustrates article-level scoring; monthly scores are formed from the full retained country-month article set.

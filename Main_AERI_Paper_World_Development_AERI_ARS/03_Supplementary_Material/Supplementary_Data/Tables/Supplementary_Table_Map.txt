@@ -8,3 +8,7 @@ Supplement_Table_S5.tex: Externally identified monetary-policy exposure validati
 Supplement_Table_S6.tex: External-identification diagnostics and falsification checks
 Supplement_Table_S7.tex: Country-level AERI and ARS summary statistics, 2015--2025
 Supplement_Table_S8.tex: Country-level AERI: descriptive comparisons, 2015--2025
+Supplement_Table_S9.tex: Illustrative keyword taxonomy used in article scoring (moved from the paper)
+Supplement_Table_S10.tex: PCA weights, scaling bounds and loadings for the eight pillars (moved from the paper)
+Supplement_Table_S11.tex: Pillar-specific economic-risk content over time (moved from the paper)
+Supplement_Table_S12.tex: AERI and within-country news-archive depth (moved from the paper)

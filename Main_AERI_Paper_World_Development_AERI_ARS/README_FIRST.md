@@ -1,16 +1,16 @@
-# World Development submission package — AERI/ARS
+# JBES submission package — AERI/ARS
+
+Journal: *Journal of Business & Economic Statistics* (JBES). The package was first prepared for World Development and has been converted to the JBES format requested by the editorial office: 12-point type, fully double-spaced (26 lines of text per page), one-inch margins, at most 35 pages including the title page, abstract, tables, figures and references.
 
 Start with `07_Submission_Guide/SUBMISSION_CHECKLIST.md`.
 
-The package is intentionally split for **double-anonymized review**:
+- `01_Title_Page/` — identifying material: the **author copy of the paper** (`Measuring_Economic_Risk_in_Africa_JBES_Authors.pdf` and `.tex`) and the separate title page.
+- `02_Anonymized_Manuscript/` — **blinded paper** (`Measuring_Economic_Risk_in_Africa.tex` / `.pdf`; `Measuring_Economic_Risk_in_Africa_JBES.pdf` is an identical copy).
+- `03_Supplementary_Material/` — **anonymous supplement** (`Supplementary_Material.tex` / `.pdf`; `JBES_Supplementary_Material.*` are identical copies) and `Supplementary_Data/` with every supplementary table and figure source.
+- `04_Figures/` — figure artwork; `Figure_Captions.txt` maps files to figure numbers.
+- `05_Tables/` — editable LaTeX tables; `Table_Captions.txt` maps files to table numbers.
+- `06_Bibliography/` — `aeri_refs_JAE_JBES.bib` (used by the LaTeX files) and an identical `aeri_refs.bib`.
+- `07_Submission_Guide/` — checklist and metadata.
+- `02_Anonymized_Manuscript - Copy/` and files ending in `_old` — author backups of earlier versions; **do not upload**.
 
-- `01_Title_Page/` — identifying title page only.
-- `02_Anonymized_Manuscript/` — anonymous article source and review PDF.
-- `03_Supplementary_Material/` — anonymous supplement plus `Supplementary_Data/` containing separate figure and editable-table sources.
-- `04_Figures/` — eight main figures as separate artwork files plus caption files.
-- `05_Tables/` — editable LaTeX table sources.
-- `06_Bibliography/` — bibliography database.
-- `07_Submission_Guide/` — submission checklist and metadata.
-- `08_Original_Source_Backup/` — author-only backup; **do not upload for review**.
-
-The PDFs are verification copies. The `.tex` files are the editable source files requested by the journal.
+JBES accepts manuscripts in PDF format only. The `.tex` files are kept for future revisions; build each one from inside its own folder with pdflatex, biber, then pdflatex twice.

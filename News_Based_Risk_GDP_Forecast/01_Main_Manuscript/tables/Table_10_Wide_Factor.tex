@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering\scriptsize
+\caption{One-month GRE comparison against a wide macroeconomic factor benchmark}
+\label{tab:wide_factor}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Benchmark information & Benchmark RMSFE & +GRE RMSFE & Rel. RMSFE & Rel. MAE & HAC CW $p$ & Two-way $p$ \\
+\midrule
+Pooled AR, publication-lagged GDP lags & 8.375 & 8.344 & 0.9964 & 0.9897 & 0.0006 & 0.053 \\
+Wide factors, macro variables lagged 1 month & 9.325 & 9.313 & 0.9987 & 0.9946 & 0.112 & 0.148 \\
+Wide factors, macro variables lagged 2 months & 9.875 & 9.881 & 1.0006 & 0.9972 & 0.451 & 0.457 \\
+\bottomrule
+\end{tabular}}
+\vspace{0.35em}
+
+\TableNote{The 162 candidate monthly series combine GDP growth, inflation, and exchange-rate depreciation across 54 economies; filtering for at least 24 calibration observations and non-negligible variance leaves 159. Means, scales, and principal-component loadings are fixed using March 2016--December 2018; six factors are the smallest set exceeding 80 percent of that window's variance (82.1 percent). Inflation and exchange rates are final-vintage supplied series, with one- or two-month lags used as safeguards rather than verified historical releases. GRE reduces raw error only slightly against the one-month-lag factor specification, and the Clark--West tests are not significant.}
+\end{table}

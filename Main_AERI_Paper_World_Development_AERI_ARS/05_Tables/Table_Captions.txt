@@ -1,15 +1,21 @@
-MAIN MANUSCRIPT EDITABLE TABLE SOURCES
+EDITABLE TABLE SOURCES (JBES version)
 
-Table_1.tex: Measurement objects and their roles
-Table_2.tex: Illustrative keyword taxonomy used in article scoring
-Table_3.tex: ARS component weights and standardised loadings
-Table_4.tex: PCA weights, scaling bounds and loadings for the eight pillars
-Table_5.tex: Distribution of AERI and alternative ARS specifications
-Table_6.tex: Pillar-specific economic-risk content over time
-Table_7.tex: Sensitivity to within-country-month exact-text deduplication
-Table_8.tex: Directional PVAR external-consistency tests
-Table_9.tex: Externally identified monetary-policy exposure validation
-Table_B1.tex: AERI and within-country news-archive depth
-Table_C1.tex: External-identification diagnostics and falsification checks
-Table_D1.tex: Pooled PVAR samples and stability diagnostics
-Table_E1.tex: Country-level AERI: descriptive comparisons, 2015--2025
+Tables in the main paper (file -> table number in the paper):
+Table_1.tex  -> Table 1: Measurement objects and their roles
+Table_3.tex  -> Table 2: ARS component weights and standardised loadings
+Table_5.tex  -> Table 3: Distribution of AERI and alternative ARS specifications
+Table_8.tex  -> Table 4: Directional PVAR external-consistency tests
+Table_9.tex  -> Table 5: Externally identified monetary-policy exposure validation
+
+Tables now reported only in the Supplementary Material
+(copies are in 03_Supplementary_Material/Supplementary_Data/Tables):
+Table_2.tex  -> Supplementary Table S9:  Illustrative keyword taxonomy used in article scoring
+Table_4.tex  -> Supplementary Table S10: PCA weights, scaling bounds and loadings for the eight pillars
+Table_6.tex  -> Supplementary Table S11: Pillar-specific economic-risk content over time
+Table_B1.tex -> Supplementary Table S12: AERI and within-country news-archive depth
+Table_7.tex  -> already Supplementary Table S2 (exact-text deduplication)
+Table_C1.tex -> already Supplementary Table S6 (external-identification diagnostics)
+Table_D1.tex -> already Supplementary Table S1 (pooled PVAR samples and stability diagnostics)
+Table_E1.tex -> already Supplementary Table S8 (ten-country AERI comparison)
+
+The former appendices A-E are no longer part of the paper; their content is in Supplementary Sections S3, S5, S6, S11, S12 and S13.

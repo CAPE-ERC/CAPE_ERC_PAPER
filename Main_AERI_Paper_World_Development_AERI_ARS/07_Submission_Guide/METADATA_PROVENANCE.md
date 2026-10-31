@@ -1,6 +1,6 @@
 # Metadata provenance and items to verify
 
-The scientific manuscript text comes from the latest AERI/ARS publication package. The journal-specific title page also needs affiliations and full postal addresses, which were not fully specified in that manuscript. The package therefore uses public institutional metadata and flags it for author verification before submission.
+The scientific manuscript text comes from the latest AERI/ARS publication package. The journal-specific title page and the author copy of the paper also need affiliations and full postal addresses, which were not fully specified in that manuscript. The package therefore uses public institutional metadata and flags it for author verification before submission.
 
 - CAPE Economic Research and Consulting contact/address source: https://capeeconomicconsult.com/
 - Central Bank of Nigeria official contact/address source: https://www.cbn.gov.ng/Contacts/

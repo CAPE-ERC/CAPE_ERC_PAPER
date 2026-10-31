@@ -9,3 +9,12 @@ File: Supplement_Figure_S3.pdf
 
 Figure S4: Monthly country AERI: South Africa, Kenya, Angola and Ivory Coast
 File: Supplement_Figure_S4.pdf
+
+Figure S5: Weighting sensitivity of the AERI-related and ARS measures (moved from the paper)
+File: Supplement_Figure_S5.pdf
+
+Figure S6: Annual AERI in selected African economies (moved from the paper)
+File: Supplement_Figure_S6.pdf
+
+Figure S7: Average domain-specific pillar indices (moved from the paper)
+File: Supplement_Figure_S7.pdf

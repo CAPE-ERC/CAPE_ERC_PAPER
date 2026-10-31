@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Monte Carlo: target-information treatment and the horizon profile of text value}
+\label{tab:simulation}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+DGP & Design & $h$ & Mean relative RMSFE & Share with RMSFE gain \\
+\midrule
+Current-state signal & Retrospective final-vintage & 1 & 1.0002 & 39.0\% \\
+Current-state signal & Publication-lagged & 1 & 0.9969 & 97.7\% \\
+Current-state signal & Retrospective final-vintage & 3 & 1.0002 & 36.6\% \\
+Current-state signal & Publication-lagged & 3 & 0.9973 & 96.5\% \\
+Current-state signal & Retrospective final-vintage & 6 & 1.0002 & 39.2\% \\
+Current-state signal & Publication-lagged & 6 & 0.9987 & 84.6\% \\
+Current-state signal & Retrospective final-vintage & 12 & 1.0001 & 47.5\% \\
+Current-state signal & Publication-lagged & 12 & 1.0025 & 47.6\% \\
+\midrule
+Persistent-state stress & Retrospective final-vintage & 12 & 0.9962 & 90.2\% \\
+Persistent-state stress & Publication-lagged & 12 & 1.0122 & 35.1\% \\
+\bottomrule
+\end{tabular}}
+
+\TableNote{Entries are the mean of the augmented-model RMSFE divided by benchmark RMSFE over 1,000 independently generated panels; ``share with gain'' is the fraction of replications for which that ratio is below one. The simulation represents 54 countries over the 2015--2025 calendar. The persistent-state specification deliberately raises annual persistence from 0.25 to 0.95 and increases signal-to-noise; it is an existence test, not an estimated model of the African data. Additional designs and the pure-noise placebo are in Supporting Information, Section 3.}
+\end{table}

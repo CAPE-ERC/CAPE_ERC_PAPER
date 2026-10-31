@@ -1,53 +1,43 @@
-# World Development submission checklist — AERI/ARS
+# JBES submission checklist — AERI/ARS
 
-This folder is organized from the journal instructions supplied by the author. It separates the title page, anonymized manuscript, supplementary material, artwork, editable tables and bibliography.
+## Files to upload (PDF only)
 
-## Files to upload
+1. **Blinded paper**: `02_Anonymized_Manuscript/Measuring_Economic_Risk_in_Africa.pdf` (35 pages).
+2. **Unblinded paper (with authors)**: `01_Title_Page/Measuring_Economic_Risk_in_Africa_JBES_Authors.pdf` (35 pages).
+3. **Supplementary material (anonymous, for review)**: `03_Supplementary_Material/Supplementary_Material.pdf` (27 pages).
 
-1. **Title page**: `01_Title_Page/Title_Page.tex` (editable source; PDF included for checking).
-2. **Anonymized manuscript**: `02_Anonymized_Manuscript/Anonymized_Manuscript.tex` (editable source; PDF included for checking).
-3. **Supplementary material**: `03_Supplementary_Material/Supplementary_Material.tex` and PDF.
-4. **Main artwork**: the eight separate files in `04_Figures/`, numbered Figure_1 through Figure_8.
-5. **Editable tables**: `05_Tables/` contains each table as a separate LaTeX source file.
-6. **Bibliography**: `06_Bibliography/aeri_refs.bib`.
+## Editorial-office requirements and how they are met
 
-## Journal-format checks already applied
+- **12-point font**: `\documentclass[12pt]{article}`; body text is set in 12-point type.
+- **Fully double-spaced, 26 lines per page**: `\setstretch{1.75}` gives a 25.4-point line pitch and exactly 26 lines on a full page of text. Tables, figure notes and footnotes are single-spaced.
+- **One-inch margins**: `\usepackage[letterpaper,margin=1in]{geometry}` on US letter paper.
+- **35 pages or fewer, including the title page, abstract, tables, figures and references**: both copies of the paper are 35 pages.
+- **Material moved to an anonymous supplement**: the former appendices A–E and lower-priority exhibits are in the supplement. The paper points to each item by its supplementary number.
+- **Both copies**: the blinded and author copies come from the same source and differ only on the title page.
+- **Anonymity**: the blinded paper and the supplement contain no author names, affiliations or emails, including in the PDF metadata.
 
-- LaTeX source is supplied; PDF is included only as a review copy.
-- Main manuscript is single-column.
-- Anonymized manuscript contains no author names, affiliations, email addresses or acknowledgements.
-- Supplementary material is anonymized.
-- Abstract is below the 250-word limit.
-- Six English keywords are provided.
-- Tables remain editable LaTeX text and use booktabs without vertical rules or cell shading.
-- Main figures are supplied as separate files with logical consecutive names.
-- Figure and table captions are mapped in separate caption files.
-- Appendices use A, B, C, D, E. Appendix equations, tables and figures use section-based numbering (for example D.1 and Table D.1).
-- References use an APA-style BibLaTeX bibliography and are alphabetized automatically. DOI fields present in the source bibliography are rendered by the APA style.
-- References start on a new page.
-- Limitations remains subsection 5.1.
-- No strikethrough or underlined manuscript text was introduced.
+## What moved from the paper to the supplement
 
-## Author actions required before upload
+| Former location in paper | Now |
+|---|---|
+| Lit. review 2.1–2.2 (full text), 2.6, part of 2.5 and 2.7 | Supplementary Section S8 (condensed versions remain in the paper) |
+| Table 2 (keyword taxonomy, worked example) | Supplementary Table S9 |
+| Table 4 (eight-pillar PCA weights) | Supplementary Table S10 |
+| Table 6 (pillar profile by subperiod) | Supplementary Table S11 |
+| Table 7 (deduplication) | Supplementary Table S2 (already there) |
+| Figure 3 (weighting sensitivity) | Supplementary Figure S5 |
+| Figure 4 (annual AERI, ten economies) | Supplementary Figure S6 |
+| Figure 5 (average pillar indices) | Supplementary Figure S7 |
+| Appendix A (data-collection architecture) | Supplementary Section S11 |
+| Appendix B (archive-depth diagnostic, Table B.1) | Supplementary Section S12, Table S12 |
+| Appendix C (external-identification diagnostics, Table C.1) | Supplementary Section S13, Table S6 |
+| Appendix D (PVAR details, Table D.1) | Supplementary Section S3, Table S1 |
+| Appendix E (ten-country table, Table E.1) | Supplementary Table S8 |
 
-- **Competing interests:** all authors must confirm the declaration. The title page intentionally contains a bold confirmation placeholder rather than inventing a legal declaration.
-- **Author names:** verify the given-name/family-name ordering shown on the title page, especially Temitope J. Laniran, Oyedamola Funmibi Taiwo, Honey Adenike Adeleke and Kafayat Ajoke Alobaloke.
-- **Affiliations:** verify that the affiliations reflect where the work was carried out. The package uses CAPE Economic Research and Consulting for Emmanuel Akande and Shakir Tewogbade; Central Bank of Nigeria for Temitope J. Laniran, Elijah Akanni and Oyedamola Funmibi Taiwo; and University of Ibadan for Honey Adenike Adeleke and Kafayat Ajoke Alobaloke.
-- **Postal addresses:** verify the institutional postal addresses on the title page before submission.
-- **Author order:** confirm that the order matches the submission system exactly.
-- **Emails:** the title page applies the requested convention: first initial of given name + family name + `@capeeconomicconsult.com`.
-- **Acknowledgements:** current file states that none were reported. Add any acknowledgements only to the title page if needed; do not place them in the anonymized manuscript.
-- **Supplementary file caption:** use the text in `03_Supplementary_Material/Supplementary_Material_Caption.txt` when the submission system asks for a description.
-- **Artwork technical checks:** Elsevier may impose resolution/font/line-width requirements during upload. The current figures are vector PDFs where available; review the artwork checker in the submission system.
+## Author actions before upload
 
-## Double-anonymization check
-
-Do not upload `08_Original_Source_Backup/` to reviewers. It is retained only for the authors' internal record. Upload the files from folders 01–06 as appropriate.
-
-## Suggested upload order
-
-1. Title Page
-2. Anonymized Manuscript
-3. Supplementary Material
-4. Figures 1–8
-5. LaTeX supporting table/source files and bibliography (or the provided LaTeX source bundle if the system accepts a source archive)
+- **Affiliations**: the author copy lists all seven authors under CAPE Economic Research and Consulting, as in the current title page. An earlier version of this package assigned Laniran, Akanni and Taiwo to the Central Bank of Nigeria and Adeleke and Alobaloke to the University of Ibadan. Confirm which is correct.
+- **Author names, order and emails**: confirm that they match the submission system exactly.
+- **Competing interests and acknowledgements**: complete these in the submission system if it asks; the title page still holds a placeholder.
+- **Keywords**: the JBES template asks for keywords that do not repeat the title, so "Economic risk" and "Africa" were replaced. The keywords are now: Alternative data; Newspapers; Panel VAR; Risk measurement; Text as data.
+- **If you rebuild the PDFs** from the `.tex` files, check that each copy of the paper is still 35 pages or fewer. The supplied PDFs were built with Computer Modern fonts; a Latin Modern build looks almost identical but can break lines slightly differently.

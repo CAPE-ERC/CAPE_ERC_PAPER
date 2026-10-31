@@ -1,0 +1,63 @@
+\subsection{Macroeconomic Data and Pooled Panel Estimation}\label{sec:pooled_method}
+The empirical assessment relates monthly news-based risk to headline inflation, exchange-rate depreciation and monthly GDP growth. Its purpose is to test whether the measured domains display economically interpretable dynamics. ARS calibration is completed independently of these macroeconomic outcomes, preserving a clean separation between index construction and subsequent validation.
+
+\subsubsection{Monthly variables and sample construction}
+Headline inflation, $\pi_{ct}$, is the supplied monthly observation of the inflation rate. The exchange rate, $e_{ct}$, is expressed as local-currency units per US dollar. Monthly GDP, $G_{ct}$, is the supplied purchasing-power-parity GDP series. Depreciation and monthly GDP growth are defined as
+\begin{equation}
+ d_{ct}=100[\log e_{ct}-\log e_{c,t-1}],\qquad
+ g_{ct}=100[\log G_{ct}-\log G_{c,t-1}].\label{eq:macro_growth}
+\end{equation}
+Thus a positive $d_{ct}$ denotes depreciation, whereas a positive $g_{ct}$ denotes monthly GDP growth. Headline inflation retains the definition supplied in the macroeconomic panel, while depreciation and GDP growth are the log-difference transformations above. The sample-specific winsorisation bounds are reported below.
+
+The main validation specification uses one news-based risk measure at a time---the inflation-risk pillar, the FX and external-risk pillar, AERI or ARS---together with inflation, depreciation and monthly GDP growth. The estimation sample is distinct from the descriptive sample defined by the 100-article threshold. It begins with the 36-country union selected by the prior correlation screen, then retains country-months with the risk measure, the required macroeconomic inputs and the full lag structure, subject to at least 24 usable observations per country.\footnote{The estimation panel winsorises the supplied macroeconomic transformations at pooled first and ninety-ninth percentiles. In the GDP-augmented sample the retained bounds are $[-2.565,50.934]$ for inflation, $[-5.736,14.926]$ for depreciation and $[-0.819,1.506]$ for monthly GDP growth.} The common GDP-augmented panel contains 4,286 observations for 36 countries and runs from May 2015 to December 2025. The 100-article rule continues to govern the principal descriptive country comparisons and ARS calibration; it is not imposed on the PVAR estimation panel. This distinction explains why a country can appear in the PVAR sample even when few or no months satisfy the descriptive coverage threshold. Using the direct pillar indices in this specification keeps the economic interpretation aligned with the measurement framework in the main text. Supporting transformations and country-level estimation diagnostics are available from the authors on request.
+
+Risk innovations are put on a comparable within-country scale. Let $\bar r_c$ be the country mean in the supplied scaling panel and $s_{r,w}$ the sample standard deviation of $r_{ct}-\bar r_c$ pooled across that panel. We use $\widetilde r_{ct}=r_{ct}/s_{r,w}$; country effects subsequently absorb level differences. A one-unit risk innovation therefore represents one pooled within-country standard deviation, rather than one raw index point. Scaling parameters are fixed for the reported estimates and bootstrap exercises.
+
+\subsubsection{The pooled dynamic system}
+For $m$ endogenous variables, the maintained model is
+\begin{equation}
+ y_{ct}=\alpha_c+\lambda_t+\sum_{\ell=1}^{p}B_\ell y_{c,t-\ell}+\varepsilon_{ct},\qquad
+ E(\varepsilon_{ct}\varepsilon_{ct}')=\Sigma.\label{eq:pvar}
+\end{equation}
+Here $\alpha_c$ captures persistent country differences, and $\lambda_t$ is a full year-month effect that absorbs shocks common to countries in a given month. The year-month effects therefore absorb common calendar-time variation rather than recurring month-of-year seasonality alone. The slope matrices $B_\ell$ are pooled across countries. In the three-variable system, $y_{ct}=(\widetilde r_{ct},\pi_{ct},d_{ct})'$. In the GDP-augmented system, $y_{ct}=(\widetilde r_{ct},\pi_{ct},d_{ct},g_{ct})'$. In particular, the inflation equation in the latter system is
+\begin{align}
+ \pi_{ct}={}&\alpha_c^\pi+\lambda_t^\pi+
+ \sum_{\ell=1}^{p}\bigl(b_{\pi r,\ell}\widetilde r_{c,t-\ell}
+ +b_{\pi\pi,\ell}\pi_{c,t-\ell}\notag\\
+ &\hspace{35mm}+b_{\pi d,\ell}d_{c,t-\ell}
+ +b_{\pi g,\ell}g_{c,t-\ell}\bigr)+\varepsilon_{ct}^\pi.\label{eq:inflation_equation}
+\end{align}
+The risk, depreciation and GDP equations have the same lag structure with equation-specific coefficients. Each outcome can therefore respond to its own history and to the histories of the other variables. Pooling provides a common dynamic description conditional on fixed effects. The multivariate panel structure follows the empirical framework in \citet{love2006} and \citet{abrigo2016}, implemented here with within-transformed pooled least squares.
+
+Let $X$ stack all $mp$ lagged regressors and $Y$ stack the contemporaneous outcomes on the common estimation sample. Alternating country and year-month projections yield $\ddot X$ and $\ddot Y$. The pooled estimator and residual covariance are
+\begin{equation}
+ \widehat B=(\ddot X'\ddot X)^+\ddot X'\ddot Y,\quad
+ \widehat E=\ddot Y-\ddot X\widehat B,\quad
+ \widehat\Sigma=\frac{\widehat E'\widehat E}{n-mp}.\label{eq:pooled_ols}
+\end{equation}
+The superscript $+$ denotes the Moore--Penrose inverse; the covariance denominator is the implemented lag-regressor adjustment. A common maximum-lag sample is used when comparing candidate orders, preventing changes in the available observations from driving lag choice. Among stable candidates with $p\in\{1,2,3\}$, the criterion is
+\begin{equation}
+ \mathrm{BIC}(p)=\log|\widehat\Sigma_p|+\frac{\log n}{n}m^2p.\label{eq:bic}
+\end{equation}
+Stability requires the maximum absolute companion-matrix eigenvalue to lie below the numerical threshold of 0.999. All reported specifications select three lags. Table~\ref{tab:model_diagnostics} reports observations, country counts, roots and accepted bootstrap draws. Fixed-effects estimation with lagged outcomes can retain finite-time bias \citep{nickell1981}; the long monthly dimension reduces some finite-sample concerns but leaves this source of bias relevant to interpretation.
+
+\subsubsection{Identification and impulse responses}
+Let $\widehat\Sigma=LL'$ with $L$ lower triangular. Forward systems order risk first, followed by inflation, depreciation and monthly GDP growth where included. This permits a risk innovation to affect the macroeconomic variables within the month, while assigning contemporaneous feedback into risk to subsequent periods. For reverse responses, the order is inflation, depreciation, monthly GDP growth and AERI. The two orderings answer complementary recursive questions about forward risk propagation and macroeconomic feedback.
+
+The moving-average matrices and normalised responses are
+\begin{align}
+ \Phi_0&=I_m,\qquad
+ \Phi_h=\sum_{\ell=1}^{\min(p,h)}\widehat B_\ell\Phi_{h-\ell},\label{eq:ma}\\
+ \theta_{kj}(h)&=\frac{e_k'\Phi_hLe_j}{e_j'Le_j},\qquad h=0,\ldots,12,\label{eq:irf}
+\end{align}
+where $e_j$ is the $j$th coordinate vector, distinct from the exchange-rate notation in equation~\eqref{eq:macro_growth}. The denominator normalises the innovation to a one-unit contemporaneous increase in the selected variable. For forward risk innovations, that unit is one within-country standard deviation. For reverse macroeconomic innovations, it is one percentage point. This convention makes the reported response magnitudes explicit while preserving the natural units used for the macroeconomic innovations.
+
+\subsubsection{Inference and interpretation}
+Uncertainty bands are constructed by resampling countries with replacement, retaining each selected country's complete time history, and re-estimating the fixed-effects system. The lag order, measurement transformations and fixed ARS calibration remain unchanged across bootstrap replications. Four hundred accepted stable replications provide the fifth and ninety-fifth percentiles at each horizon. These are pointwise 90 percent intervals, so each band describes uncertainty at a given horizon. Simultaneous inference for the full response path or for the location of its population peak would require a different procedure.
+
+Joint lag tests complement the IRFs. For example, the inflation equation tests
+\begin{equation}
+ H_0:b_{\pi r,1}=\cdots=b_{\pi r,p}=0,\qquad
+ W=(R\widehat\beta)'[R\widehat V R']^+(R\widehat\beta),\label{eq:wald}
+\end{equation}
+using country-cluster covariance $\widehat V$ and a $\chi_p^2$ reference distribution. The exact covariance calculation is given in Appendix~\ref{app:pvar}. Rejection indicates incremental information in the included lagged variable conditional on the other lags and fixed effects. The recursive response additionally reflects contemporaneous residual covariance and propagation through the full system, so the tables report both forms of evidence.

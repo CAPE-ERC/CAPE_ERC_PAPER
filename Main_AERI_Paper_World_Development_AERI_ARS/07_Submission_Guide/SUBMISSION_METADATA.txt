@@ -1,4 +1,4 @@
-WORLD DEVELOPMENT SUBMISSION METADATA
+JOURNAL OF BUSINESS & ECONOMIC STATISTICS — SUBMISSION METADATA
 
 Article title:
 Measuring Economic Risk in Africa: The African Economic Risk Index and African Risk Score
@@ -7,18 +7,22 @@ Corresponding author:
 Emmanuel Akande
 eakande@capeeconomicconsult.com
 
-Abstract word count: 222 (journal maximum: 250)
+Abstract word count: 221
 
-Keywords (6):
-Economic risk; Africa; newspapers; text as data; risk measurement; alternative data
+Keywords (5):
+Alternative data; Newspapers; Panel VAR; Risk measurement; Text as data
 
 JEL classification:
 E37; C55; C81; O55
 
-Main manuscript figures: 8
-Main manuscript tables: 9 + 4 appendix tables
-Supplementary figures: 4
-Supplementary tables: 8
+Format: 12-point font, fully double-spaced (26 lines per page), one-inch margins, US letter
+Length: blinded paper 35 pages; author copy 35 pages (each including title page, abstract, tables, figures and references)
+
+Main paper figures: 5
+Main paper tables: 5
+Supplementary figures: 7 (S1-S7)
+Supplementary tables: 12 (S1-S12)
+Supplementary material: 27 pages, anonymous
 
 Review model:
-Double anonymized. Upload the title page separately from the anonymized manuscript and anonymized supplementary material.
+Upload the blinded paper, the author copy and the anonymous supplement, all as PDF files.
