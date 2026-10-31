@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Sensitivity of the one-month GRE result to annual-data release timing}
+\label{tab:release_timing}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Annual year $y$ usable from & Rel. RMSFE & Rel. MAE & HAC CW $p$ & Two-way $p$ & Bootstrap CW $p$ & Countries $<1$ \\
+\midrule
+May of $y+1$ & 0.9964 & 0.9897 & 0.0006 & 0.053 & 0.037 & 33/54 \\
+July of $y+1$ & 0.9969 & 0.9894 & 0.0004 & 0.039 & 0.038 & 31/54 \\
+November of $y+1$ & 0.9973 & 0.9910 & 0.0001 & 0.030 & 0.019 & 32/54 \\
+\bottomrule
+\end{tabular}}
+\vspace{0.35em}
+\begin{minipage}{0.97\textwidth}\footnotesize\textit{Notes:} Each row reconstructs the GDP information set and recursive training eligibility under the stated release convention. Bootstrap results use 5,000 moving-block replications with 12-month target-date blocks and preserve the contemporaneous country cross-section.\end{minipage}
+\end{table}

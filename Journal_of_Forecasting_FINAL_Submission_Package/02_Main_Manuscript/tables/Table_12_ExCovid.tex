@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering
+\caption{Forecast robustness excluding the 2020--2021 pandemic period}
+\label{tab:excovid}
+\begin{tabular}{llcccc}
+\toprule
+Sample & Information design & $h=1$ & $h=3$ & $h=6$ & $h=12$ \\
+\midrule
+2020--2025 & Retrospective & 1.0002 & 1.0004 & 0.9986 & 0.9961 \\
+2020--2025 & Publication-lagged & 0.9964 & 0.9977 & 1.0037 & 1.0048 \\
+2022--2025 & Retrospective & 1.0001 & 1.0002 & 0.9995 & 0.9976 \\
+2022--2025 & Publication-lagged & 0.9926 & 0.9929 & 0.9988 & 1.0133 \\
+\midrule
+\multicolumn{6}{l}{\textit{Publication-lagged 2022--2025 inference}} \\
+Horizon & Relative MAE & \multicolumn{2}{c}{CW HAC $p$} & \multicolumn{2}{c}{CW two-way $p$} \\
+\midrule
+1 month & 0.9863 & \multicolumn{2}{c}{$<0.001$} & \multicolumn{2}{c}{0.0271} \\
+3 months & 0.9887 & \multicolumn{2}{c}{0.0014} & \multicolumn{2}{c}{0.0289} \\
+6 months & 0.9978 & \multicolumn{2}{c}{0.0811} & \multicolumn{2}{c}{0.1583} \\
+12 months & 1.0229 & \multicolumn{2}{c}{0.9697} & \multicolumn{2}{c}{0.7706} \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.97\textwidth}\footnotesize\textit{Notes:} Entries in the first panel are GRE RMSFE divided by the corresponding benchmark RMSFE. The restricted evaluation sample begins in January 2022 and ends in December 2025, removing all 2020--2021 forecast targets while retaining the same recursive estimation history and information-set rules. The publication-lagged 12-month ratio remains above one after the exclusion, whereas the retrospective ratio remains below one. The one- and three-month publication-lagged comparisons strengthen in the restricted sample. Clark--West values are one-sided tests of incremental predictive content, with target-month HAC and complementary country$\times$target-month two-way covariance.\end{minipage}
+\end{table}

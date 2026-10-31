@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering\scriptsize
+\caption{Publication-lagged forecast performance of the GRE-augmented model}
+\label{tab:main_results}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{rrrrrrrr}
+\toprule
+$h$ & Benchmark RMSFE & GRE RMSFE & Rel. RMSFE & Benchmark MAE & GRE MAE & HAC CW $p$ & Two-way $p$ \\
+\midrule
+1  & 8.375 & 8.344 & 0.9964 & 5.441 & 5.385 & 0.0006 & 0.053 \\
+3  & 8.493 & 8.473 & 0.9977 & 5.523 & 5.483 & 0.041 & 0.084 \\
+6  & 8.588 & 8.620 & 1.0037 & 5.513 & 5.529 & 0.878 & 0.869 \\
+12 & 19.264 & 19.357 & 1.0048 & 7.028 & 7.114 & 0.905 & 0.872 \\
+\bottomrule
+\end{tabular}}
+\vspace{0.35em}
+\begin{minipage}{0.97\textwidth}\footnotesize\textit{Notes:} The dependent variable is final-vintage twelve-month GDP-PPP proxy growth. Forecast-origin GDP lags and the recursive training sample obey the baseline May release rule described in Table~\ref{tab:design}. Relative RMSFE below one indicates lower forecast loss. Holm adjustment across the four target-month HAC tests gives adjusted $p=0.0023$ at $h=1$ and $p=0.122$ at $h=3$. The corresponding two-way adjusted values are 0.211 and 0.253.\end{minipage}
+\end{table}

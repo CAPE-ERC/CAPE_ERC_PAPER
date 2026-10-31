@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Formal decomposition of the 12-month target-information correction}
+\label{tab:channel_decomposition}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}Xcc@{}}
+\toprule
+\multicolumn{3}{l}{\textit{Panel A. Nested information-set designs}} \\
+Design & Relative RMSFE & Relative MAE \\
+\midrule
+Retrospective: final-vintage lags + immediate training & 0.9961 & 0.9930 \\
+GDP-lag corrected only & 1.0017 & 1.0070 \\
+Training-timing corrected only & 0.9966 & 0.9967 \\
+Fully publication-lagged & 1.0048 & 1.0122 \\
+\midrule
+\multicolumn{3}{l}{\textit{Panel B. Paired 12-month block-bootstrap decomposition of relative RMSFE}} \\
+Contrast & Change in relative RMSFE & 95\% bootstrap interval \\
+\midrule
+Total correction, $P-R$ & +0.0088 & [+0.0048, +0.0171] \\
+GDP-lag channel, Shapley contribution & +0.0069 & [+0.0042, +0.0145] \\
+Training-timing channel, Shapley contribution & +0.0018 & [-0.0018, +0.0075] \\
+\bottomrule
+\end{tabularx}
+\begin{minipage}{0.97\textwidth}\footnotesize\textit{Notes:} $R$ uses final-vintage GDP lags and immediate inclusion of realized training outcomes; $L$ corrects only the forecast-origin GDP lags; $T$ corrects only training-outcome availability; and $P$ applies both corrections. Panel B reports the nonlinear difference in relative RMSFE and a two-channel Shapley decomposition, so the two channel contributions sum exactly to the total $P-R$ change. The 5,000-draw circular moving-block bootstrap resamples 12-month target-date blocks and preserves the full contemporaneous cross-section. The total and GDP-lag intervals exclude zero; the training-timing interval includes zero. Complementary direct tests on country-month loss-gain differences are reported in the text and replication files.\end{minipage}
+\end{table}
