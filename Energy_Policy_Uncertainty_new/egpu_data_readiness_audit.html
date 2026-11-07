@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EgPU Data Quality &amp; Econometric Readiness Audit</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17243b;
+      --muted: #59677d;
+      --line: #dce4ef;
+      --paper: #ffffff;
+      --canvas: #f3f6fb;
+      --blue: #175cd3;
+      --green: #067647;
+      --amber: #a15c07;
+      --red: #b42318;
+      --gray: #475467;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--canvas);
+      color: var(--ink);
+      font: 15px/1.55 "Segoe UI", Arial, sans-serif;
+    }
+    header {
+      padding: 48px max(24px, calc((100vw - 1180px) / 2));
+      background: linear-gradient(125deg, #102d5c, #175cd3);
+      color: #fff;
+    }
+    header h1 { max-width: 860px; margin: 0 0 12px; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.12; }
+    header p { max-width: 820px; margin: 0; color: #e8f0ff; font-size: 1.05rem; }
+    main { max-width: 1180px; margin: 28px auto 60px; padding: 0 24px; }
+    .meta { margin: 0 0 20px; color: var(--muted); font-size: .92rem; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; margin: 22px 0 28px; }
+    .card, section { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 2px 8px #17243b0a; }
+    .card { padding: 18px; }
+    .card span { display: block; color: var(--muted); font-size: .82rem; font-weight: 650; letter-spacing: .04em; text-transform: uppercase; }
+    .card strong { display: block; margin: 6px 0; font-size: 1.8rem; }
+    .card small { color: var(--muted); }
+    section { margin: 18px 0; padding: 22px; }
+    h2 { margin: 0 0 12px; font-size: 1.35rem; }
+    h3 { margin: 20px 0 8px; font-size: 1.02rem; }
+    p { margin: 8px 0 12px; }
+    .callout { border-left: 4px solid var(--amber); background: #fff8eb; padding: 14px 16px; border-radius: 6px; }
+    .callout strong { color: var(--amber); }
+    .status { display: inline-block; padding: 3px 8px; border-radius: 99px; font-size: .75rem; font-weight: 700; white-space: nowrap; }
+    .pass { color: var(--green); background: #ecfdf3; }
+    .warn, .review { color: var(--amber); background: #fff5e5; }
+    .notrun { color: var(--gray); background: #f2f4f7; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0 6px; font-size: .9rem; }
+    th, td { padding: 10px 11px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { background: #f7f9fc; color: #344054; font-weight: 700; }
+    tr:last-child td { border-bottom: 0; }
+    .table-wrap { overflow-x: auto; }
+    .sample { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+    .sample span { padding: 5px 9px; border: 1px solid var(--line); border-radius: 7px; background: #f8faff; font-size: .86rem; }
+    .small { color: var(--muted); font-size: .9rem; }
+    .download { display: inline-block; margin: 6px 0 10px; color: var(--blue); font-weight: 700; }
+    footer { margin-top: 22px; padding: 16px 2px; color: var(--muted); font-size: .85rem; }
+    @media print {
+      body { background: #fff; }
+      header { padding: 28px; print-color-adjust: exact; }
+      main { max-width: none; margin: 16px auto; }
+      section, .card { break-inside: avoid; box-shadow: none; }
+      .download { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EgPU Data Quality &amp; Econometric Readiness Audit</h1>
+    <p>A data-readiness review of the packaged Energy Policy Uncertainty index and macroeconomic workbooks. It distinguishes validated data checks from econometric results that have not been estimated.</p>
+  </header>
+  <main>
+    <p class="meta">Prepared 6 November 2026 · Repository snapshot <code>d1050b6</code> · Latest EgPU run manifest: 4 October 2026</p>
+
+    <div class="cards">
+      <div class="card"><span>Observed index records</span><strong>7,607</strong><small>54 countries · Jan 2015–Sep 2026</small></div>
+      <div class="card"><span>Missing country-months</span><strong>7</strong><small>Of 7,614 possible panel cells</small></div>
+      <div class="card"><span>Complete quarterly overlap</span><strong>36</strong><small>Countries · 1,422 country-quarter observations</small></div>
+      <div class="card"><span>Balanced candidate sample</span><strong>18 × 45</strong><small>Countries × quarters · 810 observations</small></div>
+    </div>
+
+    <section>
+      <h2>Executive summary</h2>
+      <div class="callout"><strong>Proceed with a qualified, balanced-sample analysis—not a full-panel claim.</strong> The long and wide EgPU files agree exactly and the country-month keys are unique. However, the EgPU grid has seven missing cells, 1,266 source article files are reported as skipped, and macro coverage is incomplete and uneven. A complete quarterly EgPU–GDP-growth–CPI candidate exists for 18 countries over 45 quarters; the broader 36-country overlap is unbalanced.</div>
+      <p>The audit did not fit a PVAR. Lag selection, unit-root and residual tests, GMM validity, stability, IRFs, and FEVDs therefore remain <strong>not run</strong>. No coefficient, causal interpretation, or statistical significance is reported here.</p>
+      <a class="download" href="egpu_data_readiness_audit.csv" download>Download the detailed test results (CSV)</a>
+    </section>
+
+    <section>
+      <h2>1. EgPU index and site-panel checks</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Check</th><th>Result</th><th>Finding</th></tr></thead>
+          <tbody>
+            <tr><td>Country-month uniqueness</td><td><span class="status pass">PASS</span></td><td>0 duplicate keys in 7,607 long-form rows.</td></tr>
+            <tr><td>Wide/long reconciliation</td><td><span class="status pass">PASS</span></td><td>All 7,607 observed values match; 0 mismatches. Missing cells are not represented as invented zeroes.</td></tr>
+            <tr><td>Baseline grid</td><td><span class="status warn">WARN</span></td><td>7,126 of 7,128 expected rows. Seychelles is missing 2018-10 and 2019-03.</td></tr>
+            <tr><td>Post-baseline grid</td><td><span class="status warn">WARN</span></td><td>Missing Niger 2026-02, 2026-03, 2026-05, 2026-06; Sao Tome and Principe 2026-07.</td></tr>
+            <tr><td>Baseline normalization</td><td><span class="status pass">PASS</span></td><td>All 54 calibrated country series have a baseline mean of 100 at the stored precision.</td></tr>
+            <tr><td>Index values and tail</td><td><span class="status review">REVIEW</span></td><td>No negative values. 1,339 rows (17.60%) are zero. The maximum is 3,828.25 (99th percentile 631.73); the highest Djibouti observations have only one contributing site.</td></tr>
+            <tr><td>Site-month structure</td><td><span class="status pass">PASS</span></td><td>35,602 rows; 0 duplicate country-site-month keys and 0 count-constraint violations.</td></tr>
+            <tr><td>Site denominators</td><td><span class="status warn">WARN</span></td><td>272 site-month rows (0.76%) have zero eligible articles, so their site shares are undefined.</td></tr>
+            <tr><td>Article-source coverage</td><td><span class="status warn">WARN</span></td><td>1,266 files are listed as unreadable, empty, or missing title/text. The raw article archive is not included in this repository, so these cannot be independently reprocessed.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small">All 54 countries have a calibrated baseline. Twenty-five sites were dropped during calibration: two for fewer than two valid months and 23 for zero/missing baseline standard deviation.</p>
+    </section>
+
+    <section>
+      <h2>2. Macro-data overlap and candidate panel</h2>
+      <p>The “Afr GDP” workbook sheet contains 37 country rows and is labeled quarterly year-over-year real GDP growth. The CPI sheet contains 53 country rows and is labeled inflation (%). Country names require an explicit crosswalk (including forms such as Cabo Verde/Cape Verde and Côte d’Ivoire/Ivory Coast). The PVAR-ready overlap below requires three observed EgPU months, GDP growth for that quarter, and all three monthly CPI observations.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Candidate sample</th><th>Countries</th><th>Quarters</th><th>Country-quarter rows</th><th>Assessment</th></tr></thead>
+          <tbody>
+            <tr><td>Complete but unbalanced overlap</td><td>36</td><td>2015-Q1–2026-Q1</td><td>1,422; 4–45 per country</td><td><span class="status warn">USE WITH CARE</span> Coverage varies; no single complete 36-country rectangular panel.</td></tr>
+            <tr><td>Common balanced subset</td><td>18</td><td>2015-Q1–2026-Q1 (45 each)</td><td>810</td><td><span class="status pass">CANDIDATE</span> A defensible starting sample after checking country crosswalks, units, and series provenance.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>Countries in the complete balanced candidate</h3>
+      <div class="sample">
+        <span>Angola</span><span>Benin</span><span>Botswana</span><span>Cape Verde</span><span>Egypt</span><span>Ghana</span><span>Ivory Coast</span><span>Mauritius</span><span>Morocco</span><span>Mozambique</span><span>Namibia</span><span>Nigeria</span><span>Rwanda</span><span>Senegal</span><span>South Africa</span><span>Tunisia</span><span>Uganda</span><span>Zambia</span>
+      </div>
+      <p class="small">This quarterly overlap ends at 2026-Q1 even though EgPU continues through September 2026 and some macro-sheet headers extend later. The latest run manifest is dated 4 October 2026 and the monthly CPI sheet has late-period headers without sufficient observed values to form later complete quarters. Verify actual-versus-forecast vintage before estimation.</p>
+    </section>
+
+    <section>
+      <h2>3. Econometric tests: status</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Analysis</th><th>Status</th><th>Reason / next requirement</th></tr></thead>
+          <tbody>
+            <tr><td>PVAR estimates and lag selection</td><td><span class="status notrun">NOT RUN</span></td><td>The repository builds EgPU but contains no PVAR estimator. Finalize the sample and transformations first.</td></tr>
+            <tr><td>Unit roots, cross-sectional dependence, breaks</td><td><span class="status notrun">NOT RUN</span></td><td>Require a finalized harmonized quarterly estimation panel and specified tests.</td></tr>
+            <tr><td>Stability and residual diagnostics</td><td><span class="status notrun">NOT RUN</span></td><td>Require fitted coefficients and residuals.</td></tr>
+            <tr><td>GMM AR(2), over-identification, instrument count</td><td><span class="status notrun">NOT RUN</span></td><td>Require the chosen dynamic-panel GMM estimation and instrument specification.</td></tr>
+            <tr><td>IRFs and FEVD</td><td><span class="status notrun">NOT RUN</span></td><td>Require an estimated, stable model plus a stated generalized or structural shock-identification scheme.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>4. Recommended next steps</h2>
+      <ol>
+        <li>Prespecify the 18-country balanced sample or justify an estimator for the 36-country unbalanced overlap; publish the exact country crosswalk.</li>
+        <li>Resolve and document the seven missing EgPU country-months, review zero-index months, and assess outliers where only one site contributes.</li>
+        <li>Investigate skipped article files and the 272 zero-denominator site-months. Rebuild the index only if access to its external raw article archive is available.</li>
+        <li>Confirm GDP growth and CPI units, vintage, and actual/forecast status. State the quarterly EgPU and CPI aggregation rules.</li>
+        <li>Then estimate the specified PVAR with constrained instrument sets and report lag selection, stationarity/dependence checks, AR(2), Hansen/Sargan, stability, and country-bootstrap IRF/FEVD uncertainty.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Scope and reproducibility note</h2>
+      <p>This audit validates the CSV outputs and macro workbooks packaged in the public repository. It does not rescan the source news archive; the pipeline references an external article directory that is not present here. The run manifest records an index window ending 2026-09. Results can change if the underlying inputs or index are updated.</p>
+      <p>For machine-readable test names, results, thresholds, and notes, use the companion <a href="egpu_data_readiness_audit.csv">audit CSV</a>.</p>
+    </section>
+    <footer>Energy Policy Uncertainty (EgPU) · Data audit, not an econometric results paper · Print this page or save as PDF for presentation.</footer>
+  </main>
+</body>
+</html>

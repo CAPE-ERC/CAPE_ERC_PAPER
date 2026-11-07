@@ -1,0 +1,14 @@
+check,result,verdict
+sample,"792 obs, 18 countries, 44 quarters per country",INFO
+lag order,BIC selects p=1; AIC p=4; HQ p=1,INFO
+panel unit root (CIPS),-2.387 vs 5% crit -1.901,PASS
+stability FE,max |eig| = 0.751,PASS
+stability GMM,max |eig| = 0.922,PASS
+AR(1) FD residuals,egpu: t=-0.64; gdp_growth: t=0.6; cpi_inflation: t=0.55,INFO
+AR(2) FD residuals,egpu: p=0.0541; gdp_growth: p=0.4898; cpi_inflation: p=0.8045,PASS
+Hansen J,egpu: J=0.005 p=0.9999; gdp_growth: J=0.008 p=0.9998; cpi_inflation: J=0.009 p=0.9998,PASS
+instrument count,17 instruments vs 18 countries,PASS
+GMM first stage,"egpu: R2=0.139, F=20.7; gdp_growth: R2=0.66, F=248.2; cpi_inflation: R2=0.648, F=235.0",REVIEW
+Pesaran CD (EgPU residuals),"CD=-6.698, p=0.0",INFO
+Nickell bias FE,approx -1/T = -0.023 per coefficient; GMM removes it,INFO
+real EgPU panel (audit MOD-04..06),"NOT ESTIMATED: audit contains dimensions only, no observations",NOT RUN

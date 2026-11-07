@@ -1,0 +1,118 @@
+shock,response,h,girf,girf_gmm
+EgPU,EgPU,0,11.904,12.909
+EgPU,EgPU,1,6.827,9.228
+EgPU,EgPU,2,4.06,5.555
+EgPU,EgPU,3,2.594,3.368
+EgPU,EgPU,4,1.784,2.524
+EgPU,EgPU,5,1.293,2.395
+EgPU,EgPU,6,0.964,2.464
+EgPU,EgPU,7,0.728,2.478
+EgPU,EgPU,8,0.55,2.385
+EgPU,EgPU,9,0.416,2.219
+EgPU,EgPU,10,0.313,2.031
+EgPU,EgPU,11,0.236,1.852
+EgPU,EgPU,12,0.177,1.694
+EgPU,GDP growth,0,-0.276,-0.283
+EgPU,GDP growth,1,-3.124,-3.417
+EgPU,GDP growth,2,-3.32,-3.997
+EgPU,GDP growth,3,-2.729,-3.385
+EgPU,GDP growth,4,-2.058,-2.567
+EgPU,GDP growth,5,-1.509,-1.971
+EgPU,GDP growth,6,-1.103,-1.647
+EgPU,GDP growth,7,-0.812,-1.5
+EgPU,GDP growth,8,-0.602,-1.423
+EgPU,GDP growth,9,-0.449,-1.354
+EgPU,GDP growth,10,-0.336,-1.273
+EgPU,GDP growth,11,-0.252,-1.182
+EgPU,GDP growth,12,-0.189,-1.088
+EgPU,CPI inflation,0,0.137,0.062
+EgPU,CPI inflation,1,2.208,2.406
+EgPU,CPI inflation,2,2.019,2.454
+EgPU,CPI inflation,3,1.418,1.685
+EgPU,CPI inflation,4,0.922,0.955
+EgPU,CPI inflation,5,0.597,0.538
+EgPU,CPI inflation,6,0.4,0.39
+EgPU,CPI inflation,7,0.279,0.379
+EgPU,CPI inflation,8,0.202,0.403
+EgPU,CPI inflation,9,0.15,0.412
+EgPU,CPI inflation,10,0.112,0.399
+EgPU,CPI inflation,11,0.084,0.372
+EgPU,CPI inflation,12,0.063,0.339
+GDP growth,EgPU,0,-2.276,-2.48
+GDP growth,EgPU,1,-1.596,-2.692
+GDP growth,EgPU,2,-1.129,-2.616
+GDP growth,EgPU,3,-0.814,-2.396
+GDP growth,EgPU,4,-0.597,-2.15
+GDP growth,EgPU,5,-0.443,-1.934
+GDP growth,EgPU,6,-0.331,-1.761
+GDP growth,EgPU,7,-0.249,-1.619
+GDP growth,EgPU,8,-0.187,-1.496
+GDP growth,EgPU,9,-0.141,-1.384
+GDP growth,EgPU,10,-0.106,-1.28
+GDP growth,EgPU,11,-0.079,-1.181
+GDP growth,EgPU,12,-0.06,-1.089
+GDP growth,GDP growth,0,1.446,1.473
+GDP growth,GDP growth,1,1.318,1.429
+GDP growth,GDP growth,2,1.081,1.446
+GDP growth,GDP growth,3,0.841,1.425
+GDP growth,GDP growth,4,0.638,1.353
+GDP growth,GDP growth,5,0.479,1.252
+GDP growth,GDP growth,6,0.359,1.145
+GDP growth,GDP growth,7,0.268,1.046
+GDP growth,GDP growth,8,0.201,0.959
+GDP growth,GDP growth,9,0.151,0.882
+GDP growth,GDP growth,10,0.113,0.814
+GDP growth,GDP growth,11,0.085,0.751
+GDP growth,GDP growth,12,0.064,0.693
+GDP growth,CPI inflation,0,-0.317,-0.168
+GDP growth,CPI inflation,1,-0.457,-0.29
+GDP growth,CPI inflation,2,-0.405,-0.406
+GDP growth,CPI inflation,3,-0.313,-0.453
+GDP growth,CPI inflation,4,-0.231,-0.443
+GDP growth,CPI inflation,5,-0.169,-0.403
+GDP growth,CPI inflation,6,-0.123,-0.36
+GDP growth,CPI inflation,7,-0.091,-0.322
+GDP growth,CPI inflation,8,-0.068,-0.293
+GDP growth,CPI inflation,9,-0.051,-0.269
+GDP growth,CPI inflation,10,-0.038,-0.249
+GDP growth,CPI inflation,11,-0.029,-0.23
+GDP growth,CPI inflation,12,-0.021,-0.213
+CPI inflation,EgPU,0,1.568,0.721
+CPI inflation,EgPU,1,0.687,-1.03
+CPI inflation,EgPU,2,0.334,-1.673
+CPI inflation,EgPU,3,0.196,-1.623
+CPI inflation,EgPU,4,0.138,-1.326
+CPI inflation,EgPU,5,0.106,-1.042
+CPI inflation,EgPU,6,0.083,-0.856
+CPI inflation,EgPU,7,0.065,-0.756
+CPI inflation,EgPU,8,0.05,-0.703
+CPI inflation,EgPU,9,0.038,-0.664
+CPI inflation,EgPU,10,0.029,-0.625
+CPI inflation,EgPU,11,0.022,-0.582
+CPI inflation,EgPU,12,0.016,-0.537
+CPI inflation,GDP growth,0,-0.439,-0.224
+CPI inflation,GDP growth,1,-0.616,-0.199
+CPI inflation,GDP growth,2,-0.489,0.22
+CPI inflation,GDP growth,3,-0.335,0.562
+CPI inflation,GDP growth,4,-0.222,0.705
+CPI inflation,GDP growth,5,-0.149,0.698
+CPI inflation,GDP growth,6,-0.104,0.623
+CPI inflation,GDP growth,7,-0.074,0.54
+CPI inflation,GDP growth,8,-0.055,0.474
+CPI inflation,GDP growth,9,-0.041,0.427
+CPI inflation,GDP growth,10,-0.031,0.393
+CPI inflation,GDP growth,11,-0.023,0.365
+CPI inflation,GDP growth,12,-0.017,0.339
+CPI inflation,CPI inflation,0,1.043,1.106
+CPI inflation,CPI inflation,1,0.724,0.714
+CPI inflation,CPI inflation,2,0.408,0.17
+CPI inflation,CPI inflation,3,0.211,-0.179
+CPI inflation,CPI inflation,4,0.107,-0.302
+CPI inflation,CPI inflation,5,0.058,-0.289
+CPI inflation,CPI inflation,6,0.035,-0.229
+CPI inflation,CPI inflation,7,0.024,-0.175
+CPI inflation,CPI inflation,8,0.017,-0.141
+CPI inflation,CPI inflation,9,0.013,-0.124
+CPI inflation,CPI inflation,10,0.01,-0.116
+CPI inflation,CPI inflation,11,0.008,-0.11
+CPI inflation,CPI inflation,12,0.006,-0.104

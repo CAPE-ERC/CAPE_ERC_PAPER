@@ -1,0 +1,10 @@
+variable,shock,share_pct
+EgPU,EgPU,94.14
+EgPU,GDP growth,4.51
+EgPU,CPI inflation,1.35
+GDP growth,EgPU,83.05
+GDP growth,GDP growth,14.69
+GDP growth,CPI inflation,2.26
+CPI inflation,EgPU,83.2
+CPI inflation,GDP growth,4.57
+CPI inflation,CPI inflation,12.24

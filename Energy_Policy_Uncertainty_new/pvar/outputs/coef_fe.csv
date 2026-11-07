@@ -1,0 +1,10 @@
+equation,regressor,coef,se,t,p
+egpu,L1.egpu,0.5708,0.0276,20.67,0.0
+egpu,L1.gdp_growth,-0.2744,0.2153,-1.27,0.2024
+egpu,L1.cpi_inflation,-0.3143,0.2843,-1.11,0.2688
+gdp_growth,L1.egpu,-0.2504,0.004,-61.93,0.0
+gdp_growth,L1.gdp_growth,0.5179,0.0175,29.62,0.0
+gdp_growth,L1.cpi_inflation,0.0036,0.0307,0.12,0.9063
+cpi_inflation,L1.egpu,0.1819,0.0037,48.85,0.0
+cpi_inflation,L1.gdp_growth,0.0687,0.0181,3.8,0.0001
+cpi_inflation,L1.cpi_inflation,0.4495,0.029,15.5,0.0

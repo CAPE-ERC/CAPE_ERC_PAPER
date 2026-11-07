@@ -1,0 +1,4 @@
+equation,J,df,p,instruments,params
+egpu,0.005,3,0.9999,17,14
+gdp_growth,0.008,3,0.9998,17,14
+cpi_inflation,0.009,3,0.9998,17,14

@@ -1,0 +1,7 @@
+test,equation,coef_lag,t,p
+AR(1),egpu,-0.0271,-0.64,0.5245
+AR(2),egpu,0.0765,1.93,0.0541
+AR(1),gdp_growth,0.0218,0.6,0.5492
+AR(2),gdp_growth,-0.026,-0.69,0.4898
+AR(1),cpi_inflation,0.0273,0.55,0.5793
+AR(2),cpi_inflation,0.0129,0.25,0.8045

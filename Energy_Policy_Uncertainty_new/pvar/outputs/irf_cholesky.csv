@@ -1,0 +1,352 @@
+ordering,shock,response,h,irf
+EgPU first,EgPU,EgPU,0,11.904
+EgPU first,EgPU,EgPU,1,6.827
+EgPU first,EgPU,EgPU,2,4.06
+EgPU first,EgPU,EgPU,3,2.594
+EgPU first,EgPU,EgPU,4,1.784
+EgPU first,EgPU,EgPU,5,1.293
+EgPU first,EgPU,EgPU,6,0.964
+EgPU first,EgPU,EgPU,7,0.728
+EgPU first,EgPU,EgPU,8,0.55
+EgPU first,EgPU,EgPU,9,0.416
+EgPU first,EgPU,EgPU,10,0.313
+EgPU first,EgPU,EgPU,11,0.236
+EgPU first,EgPU,EgPU,12,0.177
+EgPU first,EgPU,GDP growth,0,-0.276
+EgPU first,EgPU,GDP growth,1,-3.124
+EgPU first,EgPU,GDP growth,2,-3.32
+EgPU first,EgPU,GDP growth,3,-2.729
+EgPU first,EgPU,GDP growth,4,-2.058
+EgPU first,EgPU,GDP growth,5,-1.509
+EgPU first,EgPU,GDP growth,6,-1.103
+EgPU first,EgPU,GDP growth,7,-0.812
+EgPU first,EgPU,GDP growth,8,-0.602
+EgPU first,EgPU,GDP growth,9,-0.449
+EgPU first,EgPU,GDP growth,10,-0.336
+EgPU first,EgPU,GDP growth,11,-0.252
+EgPU first,EgPU,GDP growth,12,-0.189
+EgPU first,EgPU,CPI inflation,0,0.137
+EgPU first,EgPU,CPI inflation,1,2.208
+EgPU first,EgPU,CPI inflation,2,2.019
+EgPU first,EgPU,CPI inflation,3,1.418
+EgPU first,EgPU,CPI inflation,4,0.922
+EgPU first,EgPU,CPI inflation,5,0.597
+EgPU first,EgPU,CPI inflation,6,0.4
+EgPU first,EgPU,CPI inflation,7,0.279
+EgPU first,EgPU,CPI inflation,8,0.202
+EgPU first,EgPU,CPI inflation,9,0.15
+EgPU first,EgPU,CPI inflation,10,0.112
+EgPU first,EgPU,CPI inflation,11,0.084
+EgPU first,EgPU,CPI inflation,12,0.063
+EgPU first,GDP growth,EgPU,0,0.0
+EgPU first,GDP growth,EgPU,1,-0.296
+EgPU first,GDP growth,EgPU,2,-0.359
+EgPU first,GDP growth,EgPU,3,-0.324
+EgPU first,GDP growth,EgPU,4,-0.261
+EgPU first,GDP growth,EgPU,5,-0.2
+EgPU first,GDP growth,EgPU,6,-0.15
+EgPU first,GDP growth,EgPU,7,-0.112
+EgPU first,GDP growth,EgPU,8,-0.083
+EgPU first,GDP growth,EgPU,9,-0.062
+EgPU first,GDP growth,EgPU,10,-0.047
+EgPU first,GDP growth,EgPU,11,-0.035
+EgPU first,GDP growth,EgPU,12,-0.026
+EgPU first,GDP growth,GDP growth,0,1.419
+EgPU first,GDP growth,GDP growth,1,0.734
+EgPU first,GDP growth,GDP growth,2,0.454
+EgPU first,GDP growth,GDP growth,3,0.325
+EgPU first,GDP growth,GDP growth,4,0.249
+EgPU first,GDP growth,GDP growth,5,0.194
+EgPU first,GDP growth,GDP growth,6,0.15
+EgPU first,GDP growth,GDP growth,7,0.115
+EgPU first,GDP growth,GDP growth,8,0.088
+EgPU first,GDP growth,GDP growth,9,0.066
+EgPU first,GDP growth,GDP growth,10,0.05
+EgPU first,GDP growth,GDP growth,11,0.037
+EgPU first,GDP growth,GDP growth,12,0.028
+EgPU first,GDP growth,CPI inflation,0,-0.296
+EgPU first,GDP growth,CPI inflation,1,-0.036
+EgPU first,GDP growth,CPI inflation,2,-0.019
+EgPU first,GDP growth,CPI inflation,3,-0.043
+EgPU first,GDP growth,CPI inflation,4,-0.056
+EgPU first,GDP growth,CPI inflation,5,-0.055
+EgPU first,GDP growth,CPI inflation,6,-0.048
+EgPU first,GDP growth,CPI inflation,7,-0.038
+EgPU first,GDP growth,CPI inflation,8,-0.03
+EgPU first,GDP growth,CPI inflation,9,-0.022
+EgPU first,GDP growth,CPI inflation,10,-0.017
+EgPU first,GDP growth,CPI inflation,11,-0.013
+EgPU first,GDP growth,CPI inflation,12,-0.009
+EgPU first,CPI inflation,EgPU,0,0.0
+EgPU first,CPI inflation,EgPU,1,-0.312
+EgPU first,CPI inflation,EgPU,2,-0.319
+EgPU first,CPI inflation,EgPU,3,-0.25
+EgPU first,CPI inflation,EgPU,4,-0.18
+EgPU first,CPI inflation,EgPU,5,-0.127
+EgPU first,CPI inflation,EgPU,6,-0.091
+EgPU first,CPI inflation,EgPU,7,-0.066
+EgPU first,CPI inflation,EgPU,8,-0.049
+EgPU first,CPI inflation,EgPU,9,-0.036
+EgPU first,CPI inflation,EgPU,10,-0.027
+EgPU first,CPI inflation,EgPU,11,-0.02
+EgPU first,CPI inflation,EgPU,12,-0.015
+EgPU first,CPI inflation,GDP growth,0,0.0
+EgPU first,CPI inflation,GDP growth,1,0.004
+EgPU first,CPI inflation,GDP growth,2,0.081
+EgPU first,CPI inflation,GDP growth,3,0.123
+EgPU first,CPI inflation,GDP growth,4,0.126
+EgPU first,CPI inflation,GDP growth,5,0.11
+EgPU first,CPI inflation,GDP growth,6,0.089
+EgPU first,CPI inflation,GDP growth,7,0.069
+EgPU first,CPI inflation,GDP growth,8,0.052
+EgPU first,CPI inflation,GDP growth,9,0.039
+EgPU first,CPI inflation,GDP growth,10,0.029
+EgPU first,CPI inflation,GDP growth,11,0.022
+EgPU first,CPI inflation,GDP growth,12,0.016
+EgPU first,CPI inflation,CPI inflation,0,0.991
+EgPU first,CPI inflation,CPI inflation,1,0.445
+EgPU first,CPI inflation,CPI inflation,2,0.144
+EgPU first,CPI inflation,CPI inflation,3,0.012
+EgPU first,CPI inflation,CPI inflation,4,-0.031
+EgPU first,CPI inflation,CPI inflation,5,-0.038
+EgPU first,CPI inflation,CPI inflation,6,-0.033
+EgPU first,CPI inflation,CPI inflation,7,-0.025
+EgPU first,CPI inflation,CPI inflation,8,-0.019
+EgPU first,CPI inflation,CPI inflation,9,-0.014
+EgPU first,CPI inflation,CPI inflation,10,-0.01
+EgPU first,CPI inflation,CPI inflation,11,-0.007
+EgPU first,CPI inflation,CPI inflation,12,-0.006
+EgPU last,EgPU,EgPU,0,0.994
+EgPU last,EgPU,EgPU,1,0.518
+EgPU last,EgPU,EgPU,2,0.411
+EgPU last,EgPU,EgPU,3,0.367
+EgPU last,EgPU,EgPU,4,0.318
+EgPU last,EgPU,EgPU,5,0.261
+EgPU last,EgPU,EgPU,6,0.206
+EgPU last,EgPU,EgPU,7,0.159
+EgPU last,EgPU,EgPU,8,0.12
+EgPU last,EgPU,EgPU,9,0.091
+EgPU last,EgPU,EgPU,10,0.068
+EgPU last,EgPU,EgPU,11,0.051
+EgPU last,EgPU,EgPU,12,0.038
+EgPU last,EgPU,GDP growth,0,0.92
+EgPU last,EgPU,GDP growth,1,0.482
+EgPU last,EgPU,GDP growth,2,0.15
+EgPU last,EgPU,GDP growth,3,-0.016
+EgPU last,EgPU,GDP growth,4,-0.075
+EgPU last,EgPU,GDP growth,5,-0.082
+EgPU last,EgPU,GDP growth,6,-0.071
+EgPU last,EgPU,GDP growth,7,-0.056
+EgPU last,EgPU,GDP growth,8,-0.042
+EgPU last,EgPU,GDP growth,9,-0.031
+EgPU last,EgPU,GDP growth,10,-0.023
+EgPU last,EgPU,GDP growth,11,-0.017
+EgPU last,EgPU,GDP growth,12,-0.013
+EgPU last,EgPU,CPI inflation,0,0.0
+EgPU last,EgPU,CPI inflation,1,-0.562
+EgPU last,EgPU,CPI inflation,2,-0.614
+EgPU last,EgPU,CPI inflation,3,-0.511
+EgPU last,EgPU,CPI inflation,4,-0.387
+EgPU last,EgPU,CPI inflation,5,-0.285
+EgPU last,EgPU,CPI inflation,6,-0.208
+EgPU last,EgPU,CPI inflation,7,-0.153
+EgPU last,EgPU,CPI inflation,8,-0.114
+EgPU last,EgPU,CPI inflation,9,-0.085
+EgPU last,EgPU,CPI inflation,10,-0.063
+EgPU last,EgPU,CPI inflation,11,-0.048
+EgPU last,EgPU,CPI inflation,12,-0.036
+EgPU last,GDP growth,EgPU,0,0.0
+EgPU last,GDP growth,EgPU,1,0.042
+EgPU last,GDP growth,EgPU,2,0.958
+EgPU last,GDP growth,EgPU,3,1.44
+EgPU last,GDP growth,EgPU,4,1.481
+EgPU last,GDP growth,EgPU,5,1.295
+EgPU last,GDP growth,EgPU,6,1.044
+EgPU last,GDP growth,EgPU,7,0.807
+EgPU last,GDP growth,EgPU,8,0.611
+EgPU last,GDP growth,EgPU,9,0.459
+EgPU last,GDP growth,EgPU,10,0.343
+EgPU last,GDP growth,EgPU,11,0.257
+EgPU last,GDP growth,EgPU,12,0.193
+EgPU last,GDP growth,GDP growth,0,11.648
+EgPU last,GDP growth,GDP growth,1,5.235
+EgPU last,GDP growth,GDP growth,2,1.69
+EgPU last,GDP growth,GDP growth,3,0.144
+EgPU last,GDP growth,GDP growth,4,-0.37
+EgPU last,GDP growth,GDP growth,5,-0.449
+EgPU last,GDP growth,GDP growth,6,-0.385
+EgPU last,GDP growth,GDP growth,7,-0.296
+EgPU last,GDP growth,GDP growth,8,-0.219
+EgPU last,GDP growth,GDP growth,9,-0.16
+EgPU last,GDP growth,GDP growth,10,-0.118
+EgPU last,GDP growth,GDP growth,11,-0.087
+EgPU last,GDP growth,GDP growth,12,-0.065
+EgPU last,GDP growth,CPI inflation,0,0.0
+EgPU last,GDP growth,CPI inflation,1,-3.661
+EgPU last,GDP growth,CPI inflation,2,-3.747
+EgPU last,GDP growth,CPI inflation,3,-2.933
+EgPU last,GDP growth,CPI inflation,4,-2.114
+EgPU last,GDP growth,CPI inflation,5,-1.497
+EgPU last,GDP growth,CPI inflation,6,-1.069
+EgPU last,GDP growth,CPI inflation,7,-0.776
+EgPU last,GDP growth,CPI inflation,8,-0.571
+EgPU last,GDP growth,CPI inflation,9,-0.425
+EgPU last,GDP growth,CPI inflation,10,-0.318
+EgPU last,GDP growth,CPI inflation,11,-0.239
+EgPU last,GDP growth,CPI inflation,12,-0.18
+EgPU last,CPI inflation,EgPU,0,-0.317
+EgPU last,CPI inflation,EgPU,1,-0.534
+EgPU last,CPI inflation,EgPU,2,-0.687
+EgPU last,CPI inflation,EgPU,3,-0.687
+EgPU last,CPI inflation,EgPU,4,-0.599
+EgPU last,CPI inflation,EgPU,5,-0.484
+EgPU last,CPI inflation,EgPU,6,-0.375
+EgPU last,CPI inflation,EgPU,7,-0.285
+EgPU last,CPI inflation,EgPU,8,-0.214
+EgPU last,CPI inflation,EgPU,9,-0.16
+EgPU last,CPI inflation,EgPU,10,-0.12
+EgPU last,CPI inflation,EgPU,11,-0.09
+EgPU last,CPI inflation,EgPU,12,-0.067
+EgPU last,CPI inflation,GDP growth,0,-2.276
+EgPU last,CPI inflation,GDP growth,1,-0.782
+EgPU last,CPI inflation,GDP growth,2,-0.092
+EgPU last,CPI inflation,GDP growth,3,0.152
+EgPU last,CPI inflation,GDP growth,4,0.198
+EgPU last,CPI inflation,GDP growth,5,0.174
+EgPU last,CPI inflation,GDP growth,6,0.136
+EgPU last,CPI inflation,GDP growth,7,0.101
+EgPU last,CPI inflation,GDP growth,8,0.075
+EgPU last,CPI inflation,GDP growth,9,0.055
+EgPU last,CPI inflation,GDP growth,10,0.041
+EgPU last,CPI inflation,GDP growth,11,0.03
+EgPU last,CPI inflation,GDP growth,12,0.023
+EgPU last,CPI inflation,CPI inflation,0,1.446
+EgPU last,CPI inflation,CPI inflation,1,1.628
+EgPU last,CPI inflation,CPI inflation,2,1.321
+EgPU last,CPI inflation,CPI inflation,3,0.972
+EgPU last,CPI inflation,CPI inflation,4,0.696
+EgPU last,CPI inflation,CPI inflation,5,0.499
+EgPU last,CPI inflation,CPI inflation,6,0.363
+EgPU last,CPI inflation,CPI inflation,7,0.267
+EgPU last,CPI inflation,CPI inflation,8,0.199
+EgPU last,CPI inflation,CPI inflation,9,0.149
+EgPU last,CPI inflation,CPI inflation,10,0.112
+EgPU last,CPI inflation,CPI inflation,11,0.084
+EgPU last,CPI inflation,CPI inflation,12,0.063
+"CPI, EgPU, GDP",EgPU,EgPU,0,1.36
+"CPI, EgPU, GDP",EgPU,EgPU,1,0.611
+"CPI, EgPU, GDP",EgPU,EgPU,2,0.197
+"CPI, EgPU, GDP",EgPU,EgPU,3,0.017
+"CPI, EgPU, GDP",EgPU,EgPU,4,-0.043
+"CPI, EgPU, GDP",EgPU,EgPU,5,-0.052
+"CPI, EgPU, GDP",EgPU,EgPU,6,-0.045
+"CPI, EgPU, GDP",EgPU,EgPU,7,-0.035
+"CPI, EgPU, GDP",EgPU,EgPU,8,-0.026
+"CPI, EgPU, GDP",EgPU,EgPU,9,-0.019
+"CPI, EgPU, GDP",EgPU,EgPU,10,-0.014
+"CPI, EgPU, GDP",EgPU,EgPU,11,-0.01
+"CPI, EgPU, GDP",EgPU,EgPU,12,-0.008
+"CPI, EgPU, GDP",EgPU,GDP growth,0,0.0
+"CPI, EgPU, GDP",EgPU,GDP growth,1,-0.427
+"CPI, EgPU, GDP",EgPU,GDP growth,2,-0.437
+"CPI, EgPU, GDP",EgPU,GDP growth,3,-0.342
+"CPI, EgPU, GDP",EgPU,GDP growth,4,-0.247
+"CPI, EgPU, GDP",EgPU,GDP growth,5,-0.175
+"CPI, EgPU, GDP",EgPU,GDP growth,6,-0.125
+"CPI, EgPU, GDP",EgPU,GDP growth,7,-0.091
+"CPI, EgPU, GDP",EgPU,GDP growth,8,-0.067
+"CPI, EgPU, GDP",EgPU,GDP growth,9,-0.05
+"CPI, EgPU, GDP",EgPU,GDP growth,10,-0.037
+"CPI, EgPU, GDP",EgPU,GDP growth,11,-0.028
+"CPI, EgPU, GDP",EgPU,GDP growth,12,-0.021
+"CPI, EgPU, GDP",EgPU,CPI inflation,0,0.0
+"CPI, EgPU, GDP",EgPU,CPI inflation,1,0.005
+"CPI, EgPU, GDP",EgPU,CPI inflation,2,0.112
+"CPI, EgPU, GDP",EgPU,CPI inflation,3,0.168
+"CPI, EgPU, GDP",EgPU,CPI inflation,4,0.173
+"CPI, EgPU, GDP",EgPU,CPI inflation,5,0.151
+"CPI, EgPU, GDP",EgPU,CPI inflation,6,0.122
+"CPI, EgPU, GDP",EgPU,CPI inflation,7,0.094
+"CPI, EgPU, GDP",EgPU,CPI inflation,8,0.071
+"CPI, EgPU, GDP",EgPU,CPI inflation,9,0.054
+"CPI, EgPU, GDP",EgPU,CPI inflation,10,0.04
+"CPI, EgPU, GDP",EgPU,CPI inflation,11,0.03
+"CPI, EgPU, GDP",EgPU,CPI inflation,12,0.022
+"CPI, EgPU, GDP",GDP growth,EgPU,0,-0.439
+"CPI, EgPU, GDP",GDP growth,EgPU,1,0.1
+"CPI, EgPU, GDP",GDP growth,EgPU,2,0.138
+"CPI, EgPU, GDP",GDP growth,EgPU,3,0.075
+"CPI, EgPU, GDP",GDP growth,EgPU,4,0.022
+"CPI, EgPU, GDP",GDP growth,EgPU,5,-0.005
+"CPI, EgPU, GDP",GDP growth,EgPU,6,-0.015
+"CPI, EgPU, GDP",GDP growth,EgPU,7,-0.016
+"CPI, EgPU, GDP",GDP growth,EgPU,8,-0.013
+"CPI, EgPU, GDP",GDP growth,EgPU,9,-0.01
+"CPI, EgPU, GDP",GDP growth,EgPU,10,-0.008
+"CPI, EgPU, GDP",GDP growth,EgPU,11,-0.006
+"CPI, EgPU, GDP",GDP growth,EgPU,12,-0.004
+"CPI, EgPU, GDP",GDP growth,GDP growth,0,1.043
+"CPI, EgPU, GDP",GDP growth,GDP growth,1,0.303
+"CPI, EgPU, GDP",GDP growth,GDP growth,2,-0.009
+"CPI, EgPU, GDP",GDP growth,GDP growth,3,-0.106
+"CPI, EgPU, GDP",GDP growth,GDP growth,4,-0.114
+"CPI, EgPU, GDP",GDP growth,GDP growth,5,-0.095
+"CPI, EgPU, GDP",GDP growth,GDP growth,6,-0.073
+"CPI, EgPU, GDP",GDP growth,GDP growth,7,-0.054
+"CPI, EgPU, GDP",GDP growth,GDP growth,8,-0.039
+"CPI, EgPU, GDP",GDP growth,GDP growth,9,-0.029
+"CPI, EgPU, GDP",GDP growth,GDP growth,10,-0.022
+"CPI, EgPU, GDP",GDP growth,GDP growth,11,-0.016
+"CPI, EgPU, GDP",GDP growth,GDP growth,12,-0.012
+"CPI, EgPU, GDP",GDP growth,CPI inflation,0,1.568
+"CPI, EgPU, GDP",GDP growth,CPI inflation,1,0.549
+"CPI, EgPU, GDP",GDP growth,CPI inflation,2,0.209
+"CPI, EgPU, GDP",GDP growth,CPI inflation,3,0.111
+"CPI, EgPU, GDP",GDP growth,CPI inflation,4,0.084
+"CPI, EgPU, GDP",GDP growth,CPI inflation,5,0.072
+"CPI, EgPU, GDP",GDP growth,CPI inflation,6,0.061
+"CPI, EgPU, GDP",GDP growth,CPI inflation,7,0.05
+"CPI, EgPU, GDP",GDP growth,CPI inflation,8,0.039
+"CPI, EgPU, GDP",GDP growth,CPI inflation,9,0.03
+"CPI, EgPU, GDP",GDP growth,CPI inflation,10,0.023
+"CPI, EgPU, GDP",GDP growth,CPI inflation,11,0.017
+"CPI, EgPU, GDP",GDP growth,CPI inflation,12,0.013
+"CPI, EgPU, GDP",CPI inflation,EgPU,0,-0.221
+"CPI, EgPU, GDP",CPI inflation,EgPU,1,0.711
+"CPI, EgPU, GDP",CPI inflation,EgPU,2,0.163
+"CPI, EgPU, GDP",CPI inflation,EgPU,3,-0.329
+"CPI, EgPU, GDP",CPI inflation,EgPU,4,-0.535
+"CPI, EgPU, GDP",CPI inflation,EgPU,5,-0.547
+"CPI, EgPU, GDP",CPI inflation,EgPU,6,-0.472
+"CPI, EgPU, GDP",CPI inflation,EgPU,7,-0.376
+"CPI, EgPU, GDP",CPI inflation,EgPU,8,-0.289
+"CPI, EgPU, GDP",CPI inflation,EgPU,9,-0.218
+"CPI, EgPU, GDP",CPI inflation,EgPU,10,-0.163
+"CPI, EgPU, GDP",CPI inflation,EgPU,11,-0.122
+"CPI, EgPU, GDP",CPI inflation,EgPU,12,-0.091
+"CPI, EgPU, GDP",CPI inflation,GDP growth,0,0.0
+"CPI, EgPU, GDP",CPI inflation,GDP growth,1,-3.169
+"CPI, EgPU, GDP",CPI inflation,GDP growth,2,-3.71
+"CPI, EgPU, GDP",CPI inflation,GDP growth,3,-3.256
+"CPI, EgPU, GDP",CPI inflation,GDP growth,4,-2.573
+"CPI, EgPU, GDP",CPI inflation,GDP growth,5,-1.948
+"CPI, EgPU, GDP",CPI inflation,GDP growth,6,-1.451
+"CPI, EgPU, GDP",CPI inflation,GDP growth,7,-1.078
+"CPI, EgPU, GDP",CPI inflation,GDP growth,8,-0.803
+"CPI, EgPU, GDP",CPI inflation,GDP growth,9,-0.599
+"CPI, EgPU, GDP",CPI inflation,GDP growth,10,-0.449
+"CPI, EgPU, GDP",CPI inflation,GDP growth,11,-0.336
+"CPI, EgPU, GDP",CPI inflation,GDP growth,12,-0.253
+"CPI, EgPU, GDP",CPI inflation,CPI inflation,0,11.8
+"CPI, EgPU, GDP",CPI inflation,CPI inflation,1,6.111
+"CPI, EgPU, GDP",CPI inflation,CPI inflation,2,3.961
+"CPI, EgPU, GDP",CPI inflation,CPI inflation,3,2.981
+"CPI, EgPU, GDP",CPI inflation,CPI inflation,4,2.358
+"CPI, EgPU, GDP",CPI inflation,CPI inflation,5,1.864
+"CPI, EgPU, GDP",CPI inflation,CPI inflation,6,1.451
+"CPI, EgPU, GDP",CPI inflation,CPI inflation,7,1.113
+"CPI, EgPU, GDP",CPI inflation,CPI inflation,8,0.845
+"CPI, EgPU, GDP",CPI inflation,CPI inflation,9,0.638
+"CPI, EgPU, GDP",CPI inflation,CPI inflation,10,0.48
+"CPI, EgPU, GDP",CPI inflation,CPI inflation,11,0.36
+"CPI, EgPU, GDP",CPI inflation,CPI inflation,12,0.27

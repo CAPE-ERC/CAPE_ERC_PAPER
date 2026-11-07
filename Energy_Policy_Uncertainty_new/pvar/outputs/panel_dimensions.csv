@@ -1,0 +1,19 @@
+item,value
+observations,810
+countries,18
+quarters,45
+quarters per country min,45
+quarters per country max,45
+balanced,True
+missing egpu,0
+zeros egpu,0
+min egpu,47.36
+max egpu,168.843
+missing gdp_growth,0
+zeros gdp_growth,0
+min gdp_growth,-31.488
+max gdp_growth,24.164
+missing cpi_inflation,0
+zeros cpi_inflation,0
+min cpi_inflation,-9.827
+max cpi_inflation,20.136
